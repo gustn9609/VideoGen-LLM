@@ -12,7 +12,7 @@ This repository contains the experiment code, analysis scripts, and lightweight 
 
 Selected adapter checkpoints are published separately on Hugging Face:
 
-- `gustn9609/VideoGen-LLM-Wan-REPA-adapters`
+- `climba/VideoGen-LLM-Wan-REPA-adapters`
 
 ## Main Experiment Areas
 
