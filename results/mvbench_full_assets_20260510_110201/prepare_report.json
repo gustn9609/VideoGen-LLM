@@ -1,0 +1,63 @@
+{
+  "repo_id": "OpenGVLab/MVBench",
+  "json_dir": "/home/hskim/.cache/huggingface/hub/datasets--OpenGVLab--MVBench/snapshots/230a2d4fac8900333c61754641c7a13e069ac9c6/json",
+  "output_root": "/home/hskim/VideoGen-LLM/results/mvbench_full_assets_20260510_110201/videos",
+  "per_task": 24,
+  "task_counts": {
+    "action_antonym": 24,
+    "action_count": 24,
+    "action_localization": 24,
+    "action_prediction": 24,
+    "action_sequence": 24,
+    "character_order": 24,
+    "counterfactual_inference": 24,
+    "egocentric_navigation": 24,
+    "episodic_reasoning": 0,
+    "fine_grained_action": 24,
+    "fine_grained_pose": 0,
+    "moving_attribute": 24,
+    "moving_count": 24,
+    "moving_direction": 24,
+    "object_existence": 24,
+    "object_interaction": 24,
+    "object_shuffle": 24,
+    "scene_transition": 24,
+    "state_change": 24,
+    "unexpected_action": 24
+  },
+  "extracted": 432,
+  "missing": 4,
+  "zip_files": {
+    "video/ssv2_video.zip": "/home/hskim/.cache/huggingface/hub/datasets--OpenGVLab--MVBench/snapshots/230a2d4fac8900333c61754641c7a13e069ac9c6/video/ssv2_video.zip",
+    "video/perception.zip": "/home/hskim/.cache/huggingface/hub/datasets--OpenGVLab--MVBench/snapshots/230a2d4fac8900333c61754641c7a13e069ac9c6/video/perception.zip",
+    "video/sta.zip": "/home/hskim/.cache/huggingface/hub/datasets--OpenGVLab--MVBench/snapshots/230a2d4fac8900333c61754641c7a13e069ac9c6/video/sta.zip",
+    "video/star.zip": "/home/hskim/.cache/huggingface/hub/datasets--OpenGVLab--MVBench/snapshots/230a2d4fac8900333c61754641c7a13e069ac9c6/video/star.zip",
+    "video/clevrer.zip": "/home/hskim/.cache/huggingface/hub/datasets--OpenGVLab--MVBench/snapshots/230a2d4fac8900333c61754641c7a13e069ac9c6/video/clevrer.zip",
+    "video/vlnqa.zip": "/home/hskim/.cache/huggingface/hub/datasets--OpenGVLab--MVBench/snapshots/230a2d4fac8900333c61754641c7a13e069ac9c6/video/vlnqa.zip",
+    "video/Moments_in_Time_Raw.zip": "/home/hskim/.cache/huggingface/hub/datasets--OpenGVLab--MVBench/snapshots/230a2d4fac8900333c61754641c7a13e069ac9c6/video/Moments_in_Time_Raw.zip",
+    "video/scene_qa.zip": "/home/hskim/.cache/huggingface/hub/datasets--OpenGVLab--MVBench/snapshots/230a2d4fac8900333c61754641c7a13e069ac9c6/video/scene_qa.zip",
+    "video/FunQA_test.zip": "/home/hskim/.cache/huggingface/hub/datasets--OpenGVLab--MVBench/snapshots/230a2d4fac8900333c61754641c7a13e069ac9c6/video/FunQA_test.zip"
+  },
+  "missing_examples": [
+    {
+      "task": "action_sequence",
+      "video": "X9WTR.mp4",
+      "zip": "video/star.zip",
+      "reason": "not_in_zip"
+    },
+    {
+      "task": "action_sequence",
+      "video": "ABHC6.mp4",
+      "zip": "video/star.zip",
+      "reason": "not_in_zip"
+    },
+    {
+      "task": "episodic_reasoning",
+      "reason": "unsupported_or_external_video_source"
+    },
+    {
+      "task": "fine_grained_pose",
+      "reason": "unsupported_or_external_video_source"
+    }
+  ]
+}

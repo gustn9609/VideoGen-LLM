@@ -1,0 +1,64 @@
+{
+  "config": {
+    "features_h5": "/home/hskim/VideoGen-LLM/results/motionbench_factorial_minisweep_20260510_151512/pool_1_frames_8/features.h5",
+    "metadata_jsonl": "/home/hskim/VideoGen-LLM/results/motionbench_factorial_minisweep_20260510_151512/pool_1_frames_8/metadata.jsonl",
+    "output_h5": "/home/hskim/VideoGen-LLM/results/motionbench_wan_repa_real_cached_20260510_173945/wan_moft_features.h5",
+    "output_metadata_jsonl": "/home/hskim/VideoGen-LLM/results/motionbench_wan_repa_real_cached_20260510_173945/wan_moft_metadata.jsonl",
+    "report_json": "/home/hskim/VideoGen-LLM/results/motionbench_wan_repa_real_cached_20260510_173945/wan_moft_report.json",
+    "report_md": "/home/hskim/VideoGen-LLM/results/motionbench_wan_repa_real_cached_20260510_173945/wan_moft_report.md",
+    "feature_names": "wan_vae_grid_1x1",
+    "modes": "high_motion+camera_comp",
+    "output_prefix": "wan_moft",
+    "content_transforms": "first_frame_only,time_average,shuffled",
+    "content_components": 32,
+    "topk": 256,
+    "keep_residual_full": false,
+    "flow_feature": "flow_grid_sequence",
+    "seed": 123
+  },
+  "features": [
+    {
+      "mode": "high_motion+camera_comp",
+      "source_feature": "wan_vae_grid_1x1",
+      "output_feature": "wan_moft_wan_vae_grid_1x1",
+      "rows": 96,
+      "source_dim": 32,
+      "output_dim": 32,
+      "content_transforms": [
+        "first_frame_only",
+        "time_average",
+        "shuffled"
+      ],
+      "pca": {
+        "requested_components": 32,
+        "components": 32,
+        "explained_variance_ratio_sum": 1.0
+      },
+      "channel_score": {
+        "motion_corr_mean": 0.059893861413002014,
+        "flow_corr_mean": 0.043588489294052124,
+        "control_corr_mean": 0.10871627926826477,
+        "score_mean": 0.13066141307353973,
+        "score_max": 0.2637479603290558
+      },
+      "kept_indices_preview": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    }
+  ]
+}

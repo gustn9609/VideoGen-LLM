@@ -1,0 +1,94 @@
+{
+  "rows": [
+    {
+      "name": "ce",
+      "accuracy": 0.4427083333333333,
+      "correct": 85,
+      "total": 192,
+      "per_question_type": {
+        "Action Order": {
+          "accuracy": 0.2708333333333333,
+          "correct": 13,
+          "total": 48
+        },
+        "Motion Recognition": {
+          "accuracy": 0.5833333333333334,
+          "correct": 28,
+          "total": 48
+        },
+        "Motion-related Objects": {
+          "accuracy": 0.6666666666666666,
+          "correct": 32,
+          "total": 48
+        },
+        "Repetition Count": {
+          "accuracy": 0.25,
+          "correct": 12,
+          "total": 48
+        }
+      },
+      "elapsed_sec": 620.294397354126,
+      "output_dir": "results/videochat2_hd_wan_repa_larger_temporal_20260511/ce"
+    },
+    {
+      "name": "eq",
+      "accuracy": 0.4427083333333333,
+      "correct": 85,
+      "total": 192,
+      "per_question_type": {
+        "Action Order": {
+          "accuracy": 0.2708333333333333,
+          "correct": 13,
+          "total": 48
+        },
+        "Motion Recognition": {
+          "accuracy": 0.5625,
+          "correct": 27,
+          "total": 48
+        },
+        "Motion-related Objects": {
+          "accuracy": 0.6666666666666666,
+          "correct": 32,
+          "total": 48
+        },
+        "Repetition Count": {
+          "accuracy": 0.2708333333333333,
+          "correct": 13,
+          "total": 48
+        }
+      },
+      "elapsed_sec": 576.279189825058,
+      "output_dir": "results/videochat2_hd_wan_repa_larger_temporal_20260511/eq"
+    },
+    {
+      "name": "rel",
+      "accuracy": 0.421875,
+      "correct": 81,
+      "total": 192,
+      "per_question_type": {
+        "Action Order": {
+          "accuracy": 0.2916666666666667,
+          "correct": 14,
+          "total": 48
+        },
+        "Motion Recognition": {
+          "accuracy": 0.5833333333333334,
+          "correct": 28,
+          "total": 48
+        },
+        "Motion-related Objects": {
+          "accuracy": 0.6666666666666666,
+          "correct": 32,
+          "total": 48
+        },
+        "Repetition Count": {
+          "accuracy": 0.14583333333333334,
+          "correct": 7,
+          "total": 48
+        }
+      },
+      "elapsed_sec": 610.2854075431824,
+      "output_dir": "results/videochat2_hd_wan_repa_larger_temporal_20260511/rel"
+    }
+  ]
+}

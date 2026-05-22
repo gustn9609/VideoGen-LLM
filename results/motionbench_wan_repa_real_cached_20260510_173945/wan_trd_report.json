@@ -1,0 +1,40 @@
+{
+  "config": {
+    "wan_features_h5": "/home/hskim/VideoGen-LLM/results/motionbench_factorial_minisweep_20260510_151512/pool_1_frames_8/features.h5",
+    "wan_metadata_jsonl": "/home/hskim/VideoGen-LLM/results/motionbench_factorial_minisweep_20260510_151512/pool_1_frames_8/metadata.jsonl",
+    "teacher_h5": "/home/hskim/VideoGen-LLM/results/motionbench_wan_repa_real_cached_20260510_173945/motion_teacher.h5",
+    "output_h5": "/home/hskim/VideoGen-LLM/results/motionbench_wan_repa_real_cached_20260510_173945/wan_trd_features.h5",
+    "output_metadata_jsonl": "/home/hskim/VideoGen-LLM/results/motionbench_wan_repa_real_cached_20260510_173945/wan_trd_metadata.jsonl",
+    "report_json": "/home/hskim/VideoGen-LLM/results/motionbench_wan_repa_real_cached_20260510_173945/wan_trd_report.json",
+    "report_md": "/home/hskim/VideoGen-LLM/results/motionbench_wan_repa_real_cached_20260510_173945/wan_trd_report.md",
+    "feature_names": "wan_vae_grid_1x1",
+    "teacher_feature": "motion_teacher_segments",
+    "modes": "high_motion+camera_comp",
+    "output_prefix": "wan_trd",
+    "segments": 4,
+    "align_dim": 128,
+    "hidden_dim": 256,
+    "epochs": 120,
+    "batch_size": 64,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "dropout": 0.1,
+    "lambda_direct": 0.25,
+    "grad_clip": 5.0,
+    "device": "cuda:0",
+    "seed": 123
+  },
+  "results": [
+    {
+      "mode": "high_motion+camera_comp",
+      "source_feature": "wan_vae_grid_1x1",
+      "output_feature": "wan_trd_wan_vae_grid_1x1",
+      "pooled_feature": "wan_trd_wan_vae_grid_1x1_pooled",
+      "rows": 96,
+      "segments": 4,
+      "align_dim": 128,
+      "initial_relation_loss": 0.2221546471118927,
+      "final_relation_loss": 0.09294057637453079
+    }
+  ]
+}

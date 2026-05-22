@@ -1,0 +1,56 @@
+{
+  "config": {
+    "features_h5": "results/repa_impl_smoke/features.h5",
+    "metadata_jsonl": "results/repa_impl_smoke/metadata.jsonl",
+    "output_h5": "results/repa_impl_smoke/moft.h5",
+    "output_metadata_jsonl": "results/repa_impl_smoke/moft_metadata.jsonl",
+    "report_json": "results/repa_impl_smoke/moft_report.json",
+    "report_md": "results/repa_impl_smoke/moft_report.md",
+    "feature_names": "wan_vae_grid_1x1",
+    "modes": "high_motion+camera_comp",
+    "output_prefix": "wan_moft",
+    "content_transforms": "first_frame_only,time_average,shuffled",
+    "content_components": 4,
+    "topk": 8,
+    "keep_residual_full": false,
+    "flow_feature": "flow_grid_sequence",
+    "seed": 123
+  },
+  "features": [
+    {
+      "mode": "high_motion+camera_comp",
+      "source_feature": "wan_vae_grid_1x1",
+      "output_feature": "wan_moft_wan_vae_grid_1x1",
+      "rows": 12,
+      "source_dim": 128,
+      "output_dim": 8,
+      "content_transforms": [
+        "first_frame_only",
+        "time_average",
+        "shuffled"
+      ],
+      "pca": {
+        "requested_components": 4,
+        "components": 4,
+        "explained_variance_ratio_sum": 0.4062221944332123
+      },
+      "channel_score": {
+        "motion_corr_mean": 0.25810280442237854,
+        "flow_corr_mean": 0.2352079153060913,
+        "control_corr_mean": 0.3489897847175598,
+        "score_mean": 0.5805582404136658,
+        "score_max": 1.5181550979614258
+      },
+      "kept_indices_preview": [
+        33,
+        37,
+        45,
+        56,
+        61,
+        74,
+        83,
+        111
+      ]
+    }
+  ]
+}

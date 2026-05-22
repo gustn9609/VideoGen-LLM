@@ -1,0 +1,53 @@
+{
+  "rows": [
+    {
+      "name": "ce_preserving_kl",
+      "correct": 45,
+      "total": 96,
+      "accuracy": 0.46875,
+      "output_dir": "results/videochat2_hd_wan_repa_followups_cv5/ce_preserving_kl"
+    },
+    {
+      "name": "dynamics_repa",
+      "correct": 45,
+      "total": 96,
+      "accuracy": 0.46875,
+      "output_dir": "results/videochat2_hd_wan_repa_followups_cv5/dynamics_repa"
+    },
+    {
+      "name": "relation_only",
+      "correct": 46,
+      "total": 96,
+      "accuracy": 0.4791666666666667,
+      "output_dir": "results/videochat2_hd_wan_repa_followups_cv5/relation_only"
+    },
+    {
+      "name": "relation_plus_equiv",
+      "correct": 45,
+      "total": 96,
+      "accuracy": 0.46875,
+      "output_dir": "results/videochat2_hd_wan_repa_followups_cv5/relation_plus_equiv"
+    },
+    {
+      "name": "type_conditional_lambda",
+      "correct": 45,
+      "total": 96,
+      "accuracy": 0.46875,
+      "output_dir": "results/videochat2_hd_wan_repa_followups_cv5/type_conditional_lambda"
+    },
+    {
+      "name": "unlabeled_pretrain_all",
+      "correct": 42,
+      "total": 96,
+      "accuracy": 0.4375,
+      "output_dir": "results/videochat2_hd_wan_repa_followups_cv5/unlabeled_pretrain_all"
+    },
+    {
+      "name": "zero_init_repa",
+      "correct": 39,
+      "total": 96,
+      "accuracy": 0.40625,
+      "output_dir": "results/videochat2_hd_wan_repa_followups_cv5/zero_init_repa"
+    }
+  ]
+}

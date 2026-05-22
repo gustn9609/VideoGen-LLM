@@ -1,0 +1,190 @@
+{
+  "rows": [
+    {
+      "seed": 123,
+      "lambda_repa": 0.0,
+      "correct": 44,
+      "total": 96,
+      "accuracy": 0.4583333333333333,
+      "output_dir": "results/videochat2_hd_wan_repa_robustness_equiv_cv5/seed123_lambda0p0"
+    },
+    {
+      "seed": 124,
+      "lambda_repa": 0.0,
+      "correct": 43,
+      "total": 96,
+      "accuracy": 0.4479166666666667,
+      "output_dir": "results/videochat2_hd_wan_repa_robustness_equiv_cv5/seed124_lambda0p0"
+    },
+    {
+      "seed": 125,
+      "lambda_repa": 0.0,
+      "correct": 41,
+      "total": 96,
+      "accuracy": 0.4270833333333333,
+      "output_dir": "results/videochat2_hd_wan_repa_robustness_equiv_cv5/seed125_lambda0p0"
+    },
+    {
+      "seed": 126,
+      "lambda_repa": 0.0,
+      "correct": 45,
+      "total": 96,
+      "accuracy": 0.46875,
+      "output_dir": "results/videochat2_hd_wan_repa_robustness_equiv_cv5/seed126_lambda0p0"
+    },
+    {
+      "seed": 127,
+      "lambda_repa": 0.0,
+      "correct": 47,
+      "total": 96,
+      "accuracy": 0.4895833333333333,
+      "output_dir": "results/videochat2_hd_wan_repa_robustness_equiv_cv5/seed127_lambda0p0"
+    },
+    {
+      "seed": 123,
+      "lambda_repa": 0.03,
+      "correct": 45,
+      "total": 96,
+      "accuracy": 0.46875,
+      "output_dir": "results/videochat2_hd_wan_repa_robustness_equiv_cv5/seed123_lambda0p03"
+    },
+    {
+      "seed": 124,
+      "lambda_repa": 0.03,
+      "correct": 42,
+      "total": 96,
+      "accuracy": 0.4375,
+      "output_dir": "results/videochat2_hd_wan_repa_robustness_equiv_cv5/seed124_lambda0p03"
+    },
+    {
+      "seed": 125,
+      "lambda_repa": 0.03,
+      "correct": 41,
+      "total": 96,
+      "accuracy": 0.4270833333333333,
+      "output_dir": "results/videochat2_hd_wan_repa_robustness_equiv_cv5/seed125_lambda0p03"
+    },
+    {
+      "seed": 126,
+      "lambda_repa": 0.03,
+      "correct": 46,
+      "total": 96,
+      "accuracy": 0.4791666666666667,
+      "output_dir": "results/videochat2_hd_wan_repa_robustness_equiv_cv5/seed126_lambda0p03"
+    },
+    {
+      "seed": 127,
+      "lambda_repa": 0.03,
+      "correct": 47,
+      "total": 96,
+      "accuracy": 0.4895833333333333,
+      "output_dir": "results/videochat2_hd_wan_repa_robustness_equiv_cv5/seed127_lambda0p03"
+    },
+    {
+      "seed": 123,
+      "lambda_repa": 0.1,
+      "correct": 46,
+      "total": 96,
+      "accuracy": 0.4791666666666667,
+      "output_dir": "results/videochat2_hd_wan_repa_robustness_equiv_cv5/seed123_lambda0p1"
+    },
+    {
+      "seed": 124,
+      "lambda_repa": 0.1,
+      "correct": 44,
+      "total": 96,
+      "accuracy": 0.4583333333333333,
+      "output_dir": "results/videochat2_hd_wan_repa_robustness_equiv_cv5/seed124_lambda0p1"
+    },
+    {
+      "seed": 125,
+      "lambda_repa": 0.1,
+      "correct": 42,
+      "total": 96,
+      "accuracy": 0.4375,
+      "output_dir": "results/videochat2_hd_wan_repa_robustness_equiv_cv5/seed125_lambda0p1"
+    },
+    {
+      "seed": 126,
+      "lambda_repa": 0.1,
+      "correct": 46,
+      "total": 96,
+      "accuracy": 0.4791666666666667,
+      "output_dir": "results/videochat2_hd_wan_repa_robustness_equiv_cv5/seed126_lambda0p1"
+    },
+    {
+      "seed": 127,
+      "lambda_repa": 0.1,
+      "correct": 49,
+      "total": 96,
+      "accuracy": 0.5104166666666666,
+      "output_dir": "results/videochat2_hd_wan_repa_robustness_equiv_cv5/seed127_lambda0p1"
+    },
+    {
+      "seed": 123,
+      "lambda_repa": 0.3,
+      "correct": 46,
+      "total": 96,
+      "accuracy": 0.4791666666666667,
+      "output_dir": "results/videochat2_hd_wan_repa_robustness_equiv_cv5/seed123_lambda0p3"
+    },
+    {
+      "seed": 124,
+      "lambda_repa": 0.3,
+      "correct": 44,
+      "total": 96,
+      "accuracy": 0.4583333333333333,
+      "output_dir": "results/videochat2_hd_wan_repa_robustness_equiv_cv5/seed124_lambda0p3"
+    },
+    {
+      "seed": 125,
+      "lambda_repa": 0.3,
+      "correct": 43,
+      "total": 96,
+      "accuracy": 0.4479166666666667,
+      "output_dir": "results/videochat2_hd_wan_repa_robustness_equiv_cv5/seed125_lambda0p3"
+    },
+    {
+      "seed": 126,
+      "lambda_repa": 0.3,
+      "correct": 43,
+      "total": 96,
+      "accuracy": 0.4479166666666667,
+      "output_dir": "results/videochat2_hd_wan_repa_robustness_equiv_cv5/seed126_lambda0p3"
+    },
+    {
+      "seed": 127,
+      "lambda_repa": 0.3,
+      "correct": 49,
+      "total": 96,
+      "accuracy": 0.5104166666666666,
+      "output_dir": "results/videochat2_hd_wan_repa_robustness_equiv_cv5/seed127_lambda0p3"
+    }
+  ],
+  "by_lambda": {
+    "0.0": {
+      "mean_accuracy": 0.4583333333333333,
+      "min_accuracy": 0.4270833333333333,
+      "max_accuracy": 0.4895833333333333,
+      "runs": 5
+    },
+    "0.03": {
+      "mean_accuracy": 0.4604166666666667,
+      "min_accuracy": 0.4270833333333333,
+      "max_accuracy": 0.4895833333333333,
+      "runs": 5
+    },
+    "0.1": {
+      "mean_accuracy": 0.4729166666666667,
+      "min_accuracy": 0.4375,
+      "max_accuracy": 0.5104166666666666,
+      "runs": 5
+    },
+    "0.3": {
+      "mean_accuracy": 0.46875,
+      "min_accuracy": 0.4479166666666667,
+      "max_accuracy": 0.5104166666666666,
+      "runs": 5
+    }
+  }
+}

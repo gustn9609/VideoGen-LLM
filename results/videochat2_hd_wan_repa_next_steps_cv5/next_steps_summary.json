@@ -1,0 +1,314 @@
+{
+  "rows": [
+    {
+      "name": "branch_separated_eq_rel",
+      "group": "branch",
+      "accuracy": 0.3541666666666667,
+      "correct": 34,
+      "total": 96,
+      "per_question_type": {
+        "Action Order": {
+          "accuracy": 0.3333333333333333,
+          "correct": 8,
+          "total": 24
+        },
+        "Motion Recognition": {
+          "accuracy": 0.5416666666666666,
+          "correct": 13,
+          "total": 24
+        },
+        "Motion-related Objects": {
+          "accuracy": 0.3333333333333333,
+          "correct": 8,
+          "total": 24
+        },
+        "Repetition Count": {
+          "accuracy": 0.20833333333333334,
+          "correct": 5,
+          "total": 24
+        }
+      },
+      "elapsed_sec": 432.18973755836487,
+      "output_dir": "results/videochat2_hd_wan_repa_next_steps_cv5/branch_separated_eq_rel"
+    },
+    {
+      "name": "negative_first_frame",
+      "group": "negative_control",
+      "accuracy": 0.46875,
+      "correct": 45,
+      "total": 96,
+      "per_question_type": {
+        "Action Order": {
+          "accuracy": 0.3333333333333333,
+          "correct": 8,
+          "total": 24
+        },
+        "Motion Recognition": {
+          "accuracy": 0.5833333333333334,
+          "correct": 14,
+          "total": 24
+        },
+        "Motion-related Objects": {
+          "accuracy": 0.5833333333333334,
+          "correct": 14,
+          "total": 24
+        },
+        "Repetition Count": {
+          "accuracy": 0.375,
+          "correct": 9,
+          "total": 24
+        }
+      },
+      "elapsed_sec": 326.127370595932,
+      "output_dir": "results/videochat2_hd_wan_repa_next_steps_cv5/negative_first_frame"
+    },
+    {
+      "name": "negative_flow",
+      "group": "negative_control",
+      "accuracy": 0.46875,
+      "correct": 45,
+      "total": 96,
+      "per_question_type": {
+        "Action Order": {
+          "accuracy": 0.2916666666666667,
+          "correct": 7,
+          "total": 24
+        },
+        "Motion Recognition": {
+          "accuracy": 0.625,
+          "correct": 15,
+          "total": 24
+        },
+        "Motion-related Objects": {
+          "accuracy": 0.5833333333333334,
+          "correct": 14,
+          "total": 24
+        },
+        "Repetition Count": {
+          "accuracy": 0.375,
+          "correct": 9,
+          "total": 24
+        }
+      },
+      "elapsed_sec": 444.15614795684814,
+      "output_dir": "results/videochat2_hd_wan_repa_next_steps_cv5/negative_flow"
+    },
+    {
+      "name": "negative_pixel",
+      "group": "negative_control",
+      "accuracy": 0.4791666666666667,
+      "correct": 46,
+      "total": 96,
+      "per_question_type": {
+        "Action Order": {
+          "accuracy": 0.3333333333333333,
+          "correct": 8,
+          "total": 24
+        },
+        "Motion Recognition": {
+          "accuracy": 0.625,
+          "correct": 15,
+          "total": 24
+        },
+        "Motion-related Objects": {
+          "accuracy": 0.5833333333333334,
+          "correct": 14,
+          "total": 24
+        },
+        "Repetition Count": {
+          "accuracy": 0.375,
+          "correct": 9,
+          "total": 24
+        }
+      },
+      "elapsed_sec": 398.143417596817,
+      "output_dir": "results/videochat2_hd_wan_repa_next_steps_cv5/negative_pixel"
+    },
+    {
+      "name": "negative_random",
+      "group": "negative_control",
+      "accuracy": 0.4791666666666667,
+      "correct": 46,
+      "total": 96,
+      "per_question_type": {
+        "Action Order": {
+          "accuracy": 0.3333333333333333,
+          "correct": 8,
+          "total": 24
+        },
+        "Motion Recognition": {
+          "accuracy": 0.625,
+          "correct": 15,
+          "total": 24
+        },
+        "Motion-related Objects": {
+          "accuracy": 0.5833333333333334,
+          "correct": 14,
+          "total": 24
+        },
+        "Repetition Count": {
+          "accuracy": 0.375,
+          "correct": 9,
+          "total": 24
+        }
+      },
+      "elapsed_sec": 278.10592222213745,
+      "output_dir": "results/videochat2_hd_wan_repa_next_steps_cv5/negative_random"
+    },
+    {
+      "name": "negative_time_average",
+      "group": "negative_control",
+      "accuracy": 0.46875,
+      "correct": 45,
+      "total": 96,
+      "per_question_type": {
+        "Action Order": {
+          "accuracy": 0.2916666666666667,
+          "correct": 7,
+          "total": 24
+        },
+        "Motion Recognition": {
+          "accuracy": 0.625,
+          "correct": 15,
+          "total": 24
+        },
+        "Motion-related Objects": {
+          "accuracy": 0.5833333333333334,
+          "correct": 14,
+          "total": 24
+        },
+        "Repetition Count": {
+          "accuracy": 0.375,
+          "correct": 9,
+          "total": 24
+        }
+      },
+      "elapsed_sec": 310.1145248413086,
+      "output_dir": "results/videochat2_hd_wan_repa_next_steps_cv5/negative_time_average"
+    },
+    {
+      "name": "schedule_constant_e3",
+      "group": "schedule",
+      "accuracy": 0.4270833333333333,
+      "correct": 41,
+      "total": 96,
+      "per_question_type": {
+        "Action Order": {
+          "accuracy": 0.3333333333333333,
+          "correct": 8,
+          "total": 24
+        },
+        "Motion Recognition": {
+          "accuracy": 0.625,
+          "correct": 15,
+          "total": 24
+        },
+        "Motion-related Objects": {
+          "accuracy": 0.5416666666666666,
+          "correct": 13,
+          "total": 24
+        },
+        "Repetition Count": {
+          "accuracy": 0.20833333333333334,
+          "correct": 5,
+          "total": 24
+        }
+      },
+      "elapsed_sec": 662.2491598129272,
+      "output_dir": "results/videochat2_hd_wan_repa_next_steps_cv5/schedule_constant_e3"
+    },
+    {
+      "name": "schedule_cosine_decay_e3",
+      "group": "schedule",
+      "accuracy": 0.4166666666666667,
+      "correct": 40,
+      "total": 96,
+      "per_question_type": {
+        "Action Order": {
+          "accuracy": 0.3333333333333333,
+          "correct": 8,
+          "total": 24
+        },
+        "Motion Recognition": {
+          "accuracy": 0.625,
+          "correct": 15,
+          "total": 24
+        },
+        "Motion-related Objects": {
+          "accuracy": 0.5833333333333334,
+          "correct": 14,
+          "total": 24
+        },
+        "Repetition Count": {
+          "accuracy": 0.125,
+          "correct": 3,
+          "total": 24
+        }
+      },
+      "elapsed_sec": 548.2105224132538,
+      "output_dir": "results/videochat2_hd_wan_repa_next_steps_cv5/schedule_cosine_decay_e3"
+    },
+    {
+      "name": "schedule_late_start_e3",
+      "group": "schedule",
+      "accuracy": 0.4166666666666667,
+      "correct": 40,
+      "total": 96,
+      "per_question_type": {
+        "Action Order": {
+          "accuracy": 0.3333333333333333,
+          "correct": 8,
+          "total": 24
+        },
+        "Motion Recognition": {
+          "accuracy": 0.625,
+          "correct": 15,
+          "total": 24
+        },
+        "Motion-related Objects": {
+          "accuracy": 0.5833333333333334,
+          "correct": 14,
+          "total": 24
+        },
+        "Repetition Count": {
+          "accuracy": 0.125,
+          "correct": 3,
+          "total": 24
+        }
+      },
+      "elapsed_sec": 560.2123367786407,
+      "output_dir": "results/videochat2_hd_wan_repa_next_steps_cv5/schedule_late_start_e3"
+    },
+    {
+      "name": "schedule_warmup_ce_polish_e3",
+      "group": "schedule",
+      "accuracy": 0.4479166666666667,
+      "correct": 43,
+      "total": 96,
+      "per_question_type": {
+        "Action Order": {
+          "accuracy": 0.375,
+          "correct": 9,
+          "total": 24
+        },
+        "Motion Recognition": {
+          "accuracy": 0.625,
+          "correct": 15,
+          "total": 24
+        },
+        "Motion-related Objects": {
+          "accuracy": 0.6666666666666666,
+          "correct": 16,
+          "total": 24
+        },
+        "Repetition Count": {
+          "accuracy": 0.125,
+          "correct": 3,
+          "total": 24
+        }
+      },
+      "elapsed_sec": 606.2248883247375,
+      "output_dir": "results/videochat2_hd_wan_repa_next_steps_cv5/schedule_warmup_ce_polish_e3"
+    }
+  ]
+}

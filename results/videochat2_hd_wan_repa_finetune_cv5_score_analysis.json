@@ -1,0 +1,113 @@
+{
+  "summary": {
+    "ce": {
+      "n": 96,
+      "accuracy": 0.4583333333333333,
+      "correct": 44,
+      "mean_gold_rank": 1.9270833333333333,
+      "mean_margin": -0.009721263476649256,
+      "median_margin": -0.17368483543395996,
+      "mean_candidate_nll": 1.6263734725111059
+    },
+    "repa": {
+      "n": 96,
+      "accuracy": 0.4791666666666667,
+      "correct": 46,
+      "mean_gold_rank": 1.90625,
+      "mean_margin": 0.005334871522544897,
+      "median_margin": -0.23593974113464355,
+      "mean_candidate_nll": 1.5297935628657495
+    }
+  },
+  "per_type": {
+    "ce": {
+      "Action Order": {
+        "n": 24,
+        "accuracy": 0.2916666666666667,
+        "correct": 7,
+        "mean_gold_rank": 2.3333333333333335,
+        "mean_margin": -1.1083640317519894,
+        "median_margin": -0.7754672169685364,
+        "mean_candidate_nll": 2.2175190104394407
+      },
+      "Motion Recognition": {
+        "n": 24,
+        "accuracy": 0.5833333333333334,
+        "correct": 14,
+        "mean_gold_rank": 1.5833333333333333,
+        "mean_margin": 0.17811449733865933,
+        "median_margin": 0.9059727191925049,
+        "mean_candidate_nll": 1.7419912159433233
+      },
+      "Motion-related Objects": {
+        "n": 24,
+        "accuracy": 0.5833333333333334,
+        "correct": 14,
+        "mean_gold_rank": 1.5833333333333333,
+        "mean_margin": 1.4514397868403346,
+        "median_margin": 0.25967326760292053,
+        "mean_candidate_nll": 0.9281822549758704
+      },
+      "Repetition Count": {
+        "n": 24,
+        "accuracy": 0.375,
+        "correct": 9,
+        "mean_gold_rank": 2.2083333333333335,
+        "mean_margin": -0.5600753063336015,
+        "median_margin": -0.9196642637252808,
+        "mean_candidate_nll": 1.6178014086857886
+      }
+    },
+    "repa": {
+      "Action Order": {
+        "n": 24,
+        "accuracy": 0.3333333333333333,
+        "correct": 8,
+        "mean_gold_rank": 2.25,
+        "mean_margin": -1.0063789317403764,
+        "median_margin": -0.7810314297676086,
+        "mean_candidate_nll": 2.073965047592132
+      },
+      "Motion Recognition": {
+        "n": 24,
+        "accuracy": 0.625,
+        "correct": 15,
+        "mean_gold_rank": 1.5416666666666667,
+        "mean_margin": 0.17427605337070418,
+        "median_margin": 0.8381789028644562,
+        "mean_candidate_nll": 1.6105540833067133
+      },
+      "Motion-related Objects": {
+        "n": 24,
+        "accuracy": 0.5833333333333334,
+        "correct": 14,
+        "mean_gold_rank": 1.5833333333333333,
+        "mean_margin": 1.3809618500626282,
+        "median_margin": 0.3344799280166626,
+        "mean_candidate_nll": 0.8945355073218137
+      },
+      "Repetition Count": {
+        "n": 24,
+        "accuracy": 0.375,
+        "correct": 9,
+        "mean_gold_rank": 2.25,
+        "mean_margin": -0.5275194856027762,
+        "median_margin": -0.9629710018634796,
+        "mean_candidate_nll": 1.54011961324234
+      }
+    }
+  },
+  "paired": {
+    "ce_vs_repa": {
+      "n": 96,
+      "b_only_correct": 2,
+      "a_only_correct": 0,
+      "both_correct": 44,
+      "both_wrong": 50,
+      "mean_delta_correct": 0.020833333333333332,
+      "mean_delta_margin": 0.015056134999194152,
+      "mean_delta_candidate_nll": -0.09657990964535614,
+      "mean_delta_gold_rank": -0.020833333333333332
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Third-party checkout kept locally for MVBench/VideoChat2 references.
+Ask-Anything/
+
+# Base model weights and downloaded assets are too large for GitHub.
+models/
+
+# Raw data, videos, feature caches, and checkpoints are handled outside Git.
+*.h5
+*.hdf5
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.jsonl
+*.log
+
+# Keep only lightweight result summaries/reports in GitHub.
+results/**
+!results/**/
+!results/**/*.md
+!results/**/*summary.json
+!results/**/*report.json
+!results/**/*analysis.json
+!results/**/overlap_ensemble.json
+!results/videochat2_hd_wan_repa_finetune_cv5_score_analysis.json
+
+Untitled

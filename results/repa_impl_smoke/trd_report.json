@@ -1,0 +1,40 @@
+{
+  "config": {
+    "wan_features_h5": "results/repa_impl_smoke/features.h5",
+    "wan_metadata_jsonl": "results/repa_impl_smoke/metadata.jsonl",
+    "teacher_h5": "results/repa_impl_smoke/teacher.h5",
+    "output_h5": "results/repa_impl_smoke/trd.h5",
+    "output_metadata_jsonl": "results/repa_impl_smoke/trd_metadata.jsonl",
+    "report_json": "results/repa_impl_smoke/trd_report.json",
+    "report_md": "results/repa_impl_smoke/trd_report.md",
+    "feature_names": "wan_vae_grid_1x1",
+    "teacher_feature": "motion_teacher_segments",
+    "modes": "high_motion+camera_comp",
+    "output_prefix": "wan_trd",
+    "segments": 4,
+    "align_dim": 8,
+    "hidden_dim": 16,
+    "epochs": 2,
+    "batch_size": 6,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "dropout": 0.1,
+    "lambda_direct": 0.25,
+    "grad_clip": 5.0,
+    "device": "cpu",
+    "seed": 123
+  },
+  "results": [
+    {
+      "mode": "high_motion+camera_comp",
+      "source_feature": "wan_vae_grid_1x1",
+      "output_feature": "wan_trd_wan_vae_grid_1x1",
+      "pooled_feature": "wan_trd_wan_vae_grid_1x1_pooled",
+      "rows": 12,
+      "segments": 4,
+      "align_dim": 8,
+      "initial_relation_loss": 0.6206490993499756,
+      "final_relation_loss": 0.6176527738571167
+    }
+  ]
+}

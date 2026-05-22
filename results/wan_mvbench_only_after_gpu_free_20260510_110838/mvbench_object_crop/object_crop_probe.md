@@ -1,0 +1,180 @@
+# MotionBench Candidate Rerank Probe
+
+| mode | feature | text | classifier | acc mean | std | CI low | CI high | correct/total | margin |
+|---|---|---|---|---:|---:|---:|---:|---:|---:|
+| none | wan_vae_grid_4x4 | hash | logistic | 0.3615 | 0.0455 | 0.3349 | 0.3871 | 464/1284 | 2.5302 |
+| none | pixel_grid_sequence | hash | logistic | 0.3006 | 0.0527 | 0.2757 | 0.3248 | 386/1284 | 2.7949 |
+| none | flow_grid_sequence | hash | logistic | 0.3107 | 0.0408 | 0.2850 | 0.3372 | 399/1284 | 2.6459 |
+| center_crop | wan_vae_grid_4x4 | hash | logistic | 0.3193 | 0.0441 | 0.2936 | 0.3450 | 410/1284 | 2.6873 |
+| center_crop | pixel_grid_sequence | hash | logistic | 0.2921 | 0.0456 | 0.2671 | 0.3178 | 375/1284 | 2.7712 |
+| center_crop | flow_grid_sequence | hash | logistic | 0.2804 | 0.0497 | 0.2547 | 0.3061 | 360/1284 | 2.6689 |
+| object_crop | wan_vae_grid_4x4 | hash | logistic | 0.3699 | 0.0402 | 0.3427 | 0.3964 | 475/1284 | 2.6289 |
+| object_crop | pixel_grid_sequence | hash | logistic | 0.3186 | 0.0496 | 0.2928 | 0.3435 | 409/1284 | 2.5821 |
+| object_crop | flow_grid_sequence | hash | logistic | 0.3028 | 0.0504 | 0.2788 | 0.3294 | 389/1284 | 2.6434 |
+
+## Per Question Type
+
+| mode | feature | question_type | acc | correct/total |
+|---|---|---|---:|---:|
+| none | wan_vae_grid_4x4 | action_antonym | 0.5556 | 40/72 |
+| none | wan_vae_grid_4x4 | action_count | 0.3750 | 27/72 |
+| none | wan_vae_grid_4x4 | action_localization | 0.3056 | 22/72 |
+| none | wan_vae_grid_4x4 | action_prediction | 0.2500 | 18/72 |
+| none | wan_vae_grid_4x4 | action_sequence | 0.2639 | 19/72 |
+| none | wan_vae_grid_4x4 | character_order | 0.4603 | 29/63 |
+| none | wan_vae_grid_4x4 | counterfactual_inference | 0.2464 | 17/69 |
+| none | wan_vae_grid_4x4 | egocentric_navigation | 0.2500 | 18/72 |
+| none | wan_vae_grid_4x4 | fine_grained_action | 0.2639 | 19/72 |
+| none | wan_vae_grid_4x4 | moving_attribute | 0.2639 | 19/72 |
+| none | wan_vae_grid_4x4 | moving_count | 0.2500 | 18/72 |
+| none | wan_vae_grid_4x4 | moving_direction | 0.4167 | 30/72 |
+| none | wan_vae_grid_4x4 | object_existence | 0.3889 | 28/72 |
+| none | wan_vae_grid_4x4 | object_interaction | 0.2778 | 20/72 |
+| none | wan_vae_grid_4x4 | object_shuffle | 0.5972 | 43/72 |
+| none | wan_vae_grid_4x4 | scene_transition | 0.5417 | 39/72 |
+| none | wan_vae_grid_4x4 | state_change | 0.4583 | 33/72 |
+| none | wan_vae_grid_4x4 | unexpected_action | 0.3472 | 25/72 |
+| none | pixel_grid_sequence | action_antonym | 0.4861 | 35/72 |
+| none | pixel_grid_sequence | action_count | 0.3333 | 24/72 |
+| none | pixel_grid_sequence | action_localization | 0.3472 | 25/72 |
+| none | pixel_grid_sequence | action_prediction | 0.2361 | 17/72 |
+| none | pixel_grid_sequence | action_sequence | 0.1389 | 10/72 |
+| none | pixel_grid_sequence | character_order | 0.4762 | 30/63 |
+| none | pixel_grid_sequence | counterfactual_inference | 0.1884 | 13/69 |
+| none | pixel_grid_sequence | egocentric_navigation | 0.3194 | 23/72 |
+| none | pixel_grid_sequence | fine_grained_action | 0.1667 | 12/72 |
+| none | pixel_grid_sequence | moving_attribute | 0.2222 | 16/72 |
+| none | pixel_grid_sequence | moving_count | 0.2500 | 18/72 |
+| none | pixel_grid_sequence | moving_direction | 0.2639 | 19/72 |
+| none | pixel_grid_sequence | object_existence | 0.3472 | 25/72 |
+| none | pixel_grid_sequence | object_interaction | 0.1944 | 14/72 |
+| none | pixel_grid_sequence | object_shuffle | 0.3611 | 26/72 |
+| none | pixel_grid_sequence | scene_transition | 0.4444 | 32/72 |
+| none | pixel_grid_sequence | state_change | 0.4167 | 30/72 |
+| none | pixel_grid_sequence | unexpected_action | 0.2361 | 17/72 |
+| none | flow_grid_sequence | action_antonym | 0.5694 | 41/72 |
+| none | flow_grid_sequence | action_count | 0.3194 | 23/72 |
+| none | flow_grid_sequence | action_localization | 0.1944 | 14/72 |
+| none | flow_grid_sequence | action_prediction | 0.3889 | 28/72 |
+| none | flow_grid_sequence | action_sequence | 0.2083 | 15/72 |
+| none | flow_grid_sequence | character_order | 0.4286 | 27/63 |
+| none | flow_grid_sequence | counterfactual_inference | 0.1884 | 13/69 |
+| none | flow_grid_sequence | egocentric_navigation | 0.2500 | 18/72 |
+| none | flow_grid_sequence | fine_grained_action | 0.2639 | 19/72 |
+| none | flow_grid_sequence | moving_attribute | 0.2083 | 15/72 |
+| none | flow_grid_sequence | moving_count | 0.2500 | 18/72 |
+| none | flow_grid_sequence | moving_direction | 0.4028 | 29/72 |
+| none | flow_grid_sequence | object_existence | 0.4167 | 30/72 |
+| none | flow_grid_sequence | object_interaction | 0.0972 | 7/72 |
+| none | flow_grid_sequence | object_shuffle | 0.3194 | 23/72 |
+| none | flow_grid_sequence | scene_transition | 0.5417 | 39/72 |
+| none | flow_grid_sequence | state_change | 0.3056 | 22/72 |
+| none | flow_grid_sequence | unexpected_action | 0.2500 | 18/72 |
+| center_crop | wan_vae_grid_4x4 | action_antonym | 0.5278 | 38/72 |
+| center_crop | wan_vae_grid_4x4 | action_count | 0.3611 | 26/72 |
+| center_crop | wan_vae_grid_4x4 | action_localization | 0.3889 | 28/72 |
+| center_crop | wan_vae_grid_4x4 | action_prediction | 0.3194 | 23/72 |
+| center_crop | wan_vae_grid_4x4 | action_sequence | 0.0833 | 6/72 |
+| center_crop | wan_vae_grid_4x4 | character_order | 0.3016 | 19/63 |
+| center_crop | wan_vae_grid_4x4 | counterfactual_inference | 0.2319 | 16/69 |
+| center_crop | wan_vae_grid_4x4 | egocentric_navigation | 0.2639 | 19/72 |
+| center_crop | wan_vae_grid_4x4 | fine_grained_action | 0.2361 | 17/72 |
+| center_crop | wan_vae_grid_4x4 | moving_attribute | 0.2917 | 21/72 |
+| center_crop | wan_vae_grid_4x4 | moving_count | 0.2500 | 18/72 |
+| center_crop | wan_vae_grid_4x4 | moving_direction | 0.3472 | 25/72 |
+| center_crop | wan_vae_grid_4x4 | object_existence | 0.3889 | 28/72 |
+| center_crop | wan_vae_grid_4x4 | object_interaction | 0.2222 | 16/72 |
+| center_crop | wan_vae_grid_4x4 | object_shuffle | 0.3611 | 26/72 |
+| center_crop | wan_vae_grid_4x4 | scene_transition | 0.5417 | 39/72 |
+| center_crop | wan_vae_grid_4x4 | state_change | 0.3750 | 27/72 |
+| center_crop | wan_vae_grid_4x4 | unexpected_action | 0.2500 | 18/72 |
+| center_crop | pixel_grid_sequence | action_antonym | 0.5000 | 36/72 |
+| center_crop | pixel_grid_sequence | action_count | 0.3889 | 28/72 |
+| center_crop | pixel_grid_sequence | action_localization | 0.3333 | 24/72 |
+| center_crop | pixel_grid_sequence | action_prediction | 0.2083 | 15/72 |
+| center_crop | pixel_grid_sequence | action_sequence | 0.1389 | 10/72 |
+| center_crop | pixel_grid_sequence | character_order | 0.3175 | 20/63 |
+| center_crop | pixel_grid_sequence | counterfactual_inference | 0.1884 | 13/69 |
+| center_crop | pixel_grid_sequence | egocentric_navigation | 0.1528 | 11/72 |
+| center_crop | pixel_grid_sequence | fine_grained_action | 0.1389 | 10/72 |
+| center_crop | pixel_grid_sequence | moving_attribute | 0.1667 | 12/72 |
+| center_crop | pixel_grid_sequence | moving_count | 0.2500 | 18/72 |
+| center_crop | pixel_grid_sequence | moving_direction | 0.2778 | 20/72 |
+| center_crop | pixel_grid_sequence | object_existence | 0.5278 | 38/72 |
+| center_crop | pixel_grid_sequence | object_interaction | 0.1528 | 11/72 |
+| center_crop | pixel_grid_sequence | object_shuffle | 0.5000 | 36/72 |
+| center_crop | pixel_grid_sequence | scene_transition | 0.4722 | 34/72 |
+| center_crop | pixel_grid_sequence | state_change | 0.3611 | 26/72 |
+| center_crop | pixel_grid_sequence | unexpected_action | 0.1806 | 13/72 |
+| center_crop | flow_grid_sequence | action_antonym | 0.6389 | 46/72 |
+| center_crop | flow_grid_sequence | action_count | 0.3611 | 26/72 |
+| center_crop | flow_grid_sequence | action_localization | 0.1806 | 13/72 |
+| center_crop | flow_grid_sequence | action_prediction | 0.3194 | 23/72 |
+| center_crop | flow_grid_sequence | action_sequence | 0.2778 | 20/72 |
+| center_crop | flow_grid_sequence | character_order | 0.3016 | 19/63 |
+| center_crop | flow_grid_sequence | counterfactual_inference | 0.2464 | 17/69 |
+| center_crop | flow_grid_sequence | egocentric_navigation | 0.0556 | 4/72 |
+| center_crop | flow_grid_sequence | fine_grained_action | 0.1944 | 14/72 |
+| center_crop | flow_grid_sequence | moving_attribute | 0.1944 | 14/72 |
+| center_crop | flow_grid_sequence | moving_count | 0.2500 | 18/72 |
+| center_crop | flow_grid_sequence | moving_direction | 0.3194 | 23/72 |
+| center_crop | flow_grid_sequence | object_existence | 0.4306 | 31/72 |
+| center_crop | flow_grid_sequence | object_interaction | 0.1944 | 14/72 |
+| center_crop | flow_grid_sequence | object_shuffle | 0.1528 | 11/72 |
+| center_crop | flow_grid_sequence | scene_transition | 0.4861 | 35/72 |
+| center_crop | flow_grid_sequence | state_change | 0.1944 | 14/72 |
+| center_crop | flow_grid_sequence | unexpected_action | 0.2500 | 18/72 |
+| object_crop | wan_vae_grid_4x4 | action_antonym | 0.6806 | 49/72 |
+| object_crop | wan_vae_grid_4x4 | action_count | 0.3889 | 28/72 |
+| object_crop | wan_vae_grid_4x4 | action_localization | 0.3056 | 22/72 |
+| object_crop | wan_vae_grid_4x4 | action_prediction | 0.2500 | 18/72 |
+| object_crop | wan_vae_grid_4x4 | action_sequence | 0.2361 | 17/72 |
+| object_crop | wan_vae_grid_4x4 | character_order | 0.3651 | 23/63 |
+| object_crop | wan_vae_grid_4x4 | counterfactual_inference | 0.2174 | 15/69 |
+| object_crop | wan_vae_grid_4x4 | egocentric_navigation | 0.3194 | 23/72 |
+| object_crop | wan_vae_grid_4x4 | fine_grained_action | 0.1944 | 14/72 |
+| object_crop | wan_vae_grid_4x4 | moving_attribute | 0.3889 | 28/72 |
+| object_crop | wan_vae_grid_4x4 | moving_count | 0.2500 | 18/72 |
+| object_crop | wan_vae_grid_4x4 | moving_direction | 0.5278 | 38/72 |
+| object_crop | wan_vae_grid_4x4 | object_existence | 0.4028 | 29/72 |
+| object_crop | wan_vae_grid_4x4 | object_interaction | 0.3472 | 25/72 |
+| object_crop | wan_vae_grid_4x4 | object_shuffle | 0.5556 | 40/72 |
+| object_crop | wan_vae_grid_4x4 | scene_transition | 0.5694 | 41/72 |
+| object_crop | wan_vae_grid_4x4 | state_change | 0.4167 | 30/72 |
+| object_crop | wan_vae_grid_4x4 | unexpected_action | 0.2361 | 17/72 |
+| object_crop | pixel_grid_sequence | action_antonym | 0.5833 | 42/72 |
+| object_crop | pixel_grid_sequence | action_count | 0.3333 | 24/72 |
+| object_crop | pixel_grid_sequence | action_localization | 0.2917 | 21/72 |
+| object_crop | pixel_grid_sequence | action_prediction | 0.1667 | 12/72 |
+| object_crop | pixel_grid_sequence | action_sequence | 0.1944 | 14/72 |
+| object_crop | pixel_grid_sequence | character_order | 0.5079 | 32/63 |
+| object_crop | pixel_grid_sequence | counterfactual_inference | 0.2174 | 15/69 |
+| object_crop | pixel_grid_sequence | egocentric_navigation | 0.1944 | 14/72 |
+| object_crop | pixel_grid_sequence | fine_grained_action | 0.2083 | 15/72 |
+| object_crop | pixel_grid_sequence | moving_attribute | 0.1667 | 12/72 |
+| object_crop | pixel_grid_sequence | moving_count | 0.2500 | 18/72 |
+| object_crop | pixel_grid_sequence | moving_direction | 0.1528 | 11/72 |
+| object_crop | pixel_grid_sequence | object_existence | 0.4583 | 33/72 |
+| object_crop | pixel_grid_sequence | object_interaction | 0.2500 | 18/72 |
+| object_crop | pixel_grid_sequence | object_shuffle | 0.5556 | 40/72 |
+| object_crop | pixel_grid_sequence | scene_transition | 0.5694 | 41/72 |
+| object_crop | pixel_grid_sequence | state_change | 0.3889 | 28/72 |
+| object_crop | pixel_grid_sequence | unexpected_action | 0.2639 | 19/72 |
+| object_crop | flow_grid_sequence | action_antonym | 0.5556 | 40/72 |
+| object_crop | flow_grid_sequence | action_count | 0.3056 | 22/72 |
+| object_crop | flow_grid_sequence | action_localization | 0.2778 | 20/72 |
+| object_crop | flow_grid_sequence | action_prediction | 0.1806 | 13/72 |
+| object_crop | flow_grid_sequence | action_sequence | 0.1667 | 12/72 |
+| object_crop | flow_grid_sequence | character_order | 0.5079 | 32/63 |
+| object_crop | flow_grid_sequence | counterfactual_inference | 0.2319 | 16/69 |
+| object_crop | flow_grid_sequence | egocentric_navigation | 0.2222 | 16/72 |
+| object_crop | flow_grid_sequence | fine_grained_action | 0.2361 | 17/72 |
+| object_crop | flow_grid_sequence | moving_attribute | 0.2083 | 15/72 |
+| object_crop | flow_grid_sequence | moving_count | 0.2500 | 18/72 |
+| object_crop | flow_grid_sequence | moving_direction | 0.2222 | 16/72 |
+| object_crop | flow_grid_sequence | object_existence | 0.5000 | 36/72 |
+| object_crop | flow_grid_sequence | object_interaction | 0.2639 | 19/72 |
+| object_crop | flow_grid_sequence | object_shuffle | 0.2500 | 18/72 |
+| object_crop | flow_grid_sequence | scene_transition | 0.4861 | 35/72 |
+| object_crop | flow_grid_sequence | state_change | 0.3611 | 26/72 |
+| object_crop | flow_grid_sequence | unexpected_action | 0.2500 | 18/72 |

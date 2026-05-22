@@ -1,0 +1,345 @@
+{
+  "summary": {
+    "ce": {
+      "n": 96,
+      "accuracy": 0.4583333333333333,
+      "correct": 44,
+      "mean_gold_rank": 1.9270833333333333,
+      "mean_margin": -0.009721263476649256,
+      "median_margin": -0.17368483543395996,
+      "mean_candidate_nll": 1.6263734725111059
+    },
+    "equiv": {
+      "n": 96,
+      "accuracy": 0.4791666666666667,
+      "correct": 46,
+      "mean_gold_rank": 1.90625,
+      "mean_margin": 0.005334871522544897,
+      "median_margin": -0.23593974113464355,
+      "mean_candidate_nll": 1.5297935628657495
+    },
+    "relation": {
+      "n": 96,
+      "accuracy": 0.4791666666666667,
+      "correct": 46,
+      "mean_gold_rank": 1.96875,
+      "mean_margin": 0.044348224928323056,
+      "median_margin": -0.15736284852027893,
+      "mean_candidate_nll": 1.609919966565424
+    },
+    "dynamics": {
+      "n": 96,
+      "accuracy": 0.46875,
+      "correct": 45,
+      "mean_gold_rank": 1.9166666666666667,
+      "mean_margin": -0.015841144661180806,
+      "median_margin": -0.1347532570362091,
+      "mean_candidate_nll": 1.6304269417921837
+    },
+    "type_cond": {
+      "n": 96,
+      "accuracy": 0.46875,
+      "correct": 45,
+      "mean_gold_rank": 1.9270833333333333,
+      "mean_margin": 0.0013815661717444527,
+      "median_margin": -0.2236221730709076,
+      "mean_candidate_nll": 1.5128733423652225
+    },
+    "kl": {
+      "n": 96,
+      "accuracy": 0.46875,
+      "correct": 45,
+      "mean_gold_rank": 1.96875,
+      "mean_margin": -0.10643654952635491,
+      "median_margin": -0.27142295241355896,
+      "mean_candidate_nll": 1.7135820308178797
+    }
+  },
+  "per_type": {
+    "ce": {
+      "Action Order": {
+        "n": 24,
+        "accuracy": 0.2916666666666667,
+        "correct": 7,
+        "mean_gold_rank": 2.3333333333333335,
+        "mean_margin": -1.1083640317519894,
+        "median_margin": -0.7754672169685364,
+        "mean_candidate_nll": 2.2175190104394407
+      },
+      "Motion Recognition": {
+        "n": 24,
+        "accuracy": 0.5833333333333334,
+        "correct": 14,
+        "mean_gold_rank": 1.5833333333333333,
+        "mean_margin": 0.17811449733865933,
+        "median_margin": 0.9059727191925049,
+        "mean_candidate_nll": 1.7419912159433233
+      },
+      "Motion-related Objects": {
+        "n": 24,
+        "accuracy": 0.5833333333333334,
+        "correct": 14,
+        "mean_gold_rank": 1.5833333333333333,
+        "mean_margin": 1.4514397868403346,
+        "median_margin": 0.25967326760292053,
+        "mean_candidate_nll": 0.9281822549758704
+      },
+      "Repetition Count": {
+        "n": 24,
+        "accuracy": 0.375,
+        "correct": 9,
+        "mean_gold_rank": 2.2083333333333335,
+        "mean_margin": -0.5600753063336015,
+        "median_margin": -0.9196642637252808,
+        "mean_candidate_nll": 1.6178014086857886
+      }
+    },
+    "equiv": {
+      "Action Order": {
+        "n": 24,
+        "accuracy": 0.3333333333333333,
+        "correct": 8,
+        "mean_gold_rank": 2.25,
+        "mean_margin": -1.0063789317403764,
+        "median_margin": -0.7810314297676086,
+        "mean_candidate_nll": 2.073965047592132
+      },
+      "Motion Recognition": {
+        "n": 24,
+        "accuracy": 0.625,
+        "correct": 15,
+        "mean_gold_rank": 1.5416666666666667,
+        "mean_margin": 0.17427605337070418,
+        "median_margin": 0.8381789028644562,
+        "mean_candidate_nll": 1.6105540833067133
+      },
+      "Motion-related Objects": {
+        "n": 24,
+        "accuracy": 0.5833333333333334,
+        "correct": 14,
+        "mean_gold_rank": 1.5833333333333333,
+        "mean_margin": 1.3809618500626282,
+        "median_margin": 0.3344799280166626,
+        "mean_candidate_nll": 0.8945355073218137
+      },
+      "Repetition Count": {
+        "n": 24,
+        "accuracy": 0.375,
+        "correct": 9,
+        "mean_gold_rank": 2.25,
+        "mean_margin": -0.5275194856027762,
+        "median_margin": -0.9629710018634796,
+        "mean_candidate_nll": 1.54011961324234
+      }
+    },
+    "relation": {
+      "Action Order": {
+        "n": 24,
+        "accuracy": 0.3333333333333333,
+        "correct": 8,
+        "mean_gold_rank": 2.375,
+        "mean_margin": -1.0983420849297545,
+        "median_margin": -0.9683385491371155,
+        "mean_candidate_nll": 2.2019602233401407
+      },
+      "Motion Recognition": {
+        "n": 24,
+        "accuracy": 0.5833333333333334,
+        "correct": 14,
+        "mean_gold_rank": 1.625,
+        "mean_margin": 0.018514435279636626,
+        "median_margin": 0.06242877244949341,
+        "mean_candidate_nll": 1.8574965379944868
+      },
+      "Motion-related Objects": {
+        "n": 24,
+        "accuracy": 0.625,
+        "correct": 15,
+        "mean_gold_rank": 1.625,
+        "mean_margin": 1.7602194665717736,
+        "median_margin": 0.5874235928058624,
+        "mean_candidate_nll": 0.8158306240822281
+      },
+      "Repetition Count": {
+        "n": 24,
+        "accuracy": 0.375,
+        "correct": 9,
+        "mean_gold_rank": 2.25,
+        "mean_margin": -0.5029989172083636,
+        "median_margin": -0.5697549283504486,
+        "mean_candidate_nll": 1.5643924808448408
+      }
+    },
+    "dynamics": {
+      "Action Order": {
+        "n": 24,
+        "accuracy": 0.2916666666666667,
+        "correct": 7,
+        "mean_gold_rank": 2.3333333333333335,
+        "mean_margin": -1.0926064167748943,
+        "median_margin": -0.7601646184921265,
+        "mean_candidate_nll": 2.2075686457385113
+      },
+      "Motion Recognition": {
+        "n": 24,
+        "accuracy": 0.5833333333333334,
+        "correct": 14,
+        "mean_gold_rank": 1.5833333333333333,
+        "mean_margin": 0.15317437056637573,
+        "median_margin": 0.9249386191368103,
+        "mean_candidate_nll": 1.7450908497732243
+      },
+      "Motion-related Objects": {
+        "n": 24,
+        "accuracy": 0.625,
+        "correct": 15,
+        "mean_gold_rank": 1.5416666666666667,
+        "mean_margin": 1.4537992945273193,
+        "median_margin": 0.28828850388526917,
+        "mean_candidate_nll": 0.93097714048297
+      },
+      "Repetition Count": {
+        "n": 24,
+        "accuracy": 0.375,
+        "correct": 9,
+        "mean_gold_rank": 2.2083333333333335,
+        "mean_margin": -0.577731826963524,
+        "median_margin": -0.9520556926727295,
+        "mean_candidate_nll": 1.6380711311740297
+      }
+    },
+    "type_cond": {
+      "Action Order": {
+        "n": 24,
+        "accuracy": 0.2916666666666667,
+        "correct": 7,
+        "mean_gold_rank": 2.3333333333333335,
+        "mean_margin": -0.9806619520337941,
+        "median_margin": -0.7488044500350952,
+        "mean_candidate_nll": 2.047017623116005
+      },
+      "Motion Recognition": {
+        "n": 24,
+        "accuracy": 0.625,
+        "correct": 15,
+        "mean_gold_rank": 1.5416666666666667,
+        "mean_margin": 0.15578634108775682,
+        "median_margin": 0.8460010290145874,
+        "mean_candidate_nll": 1.5970709635324774
+      },
+      "Motion-related Objects": {
+        "n": 24,
+        "accuracy": 0.5833333333333334,
+        "correct": 14,
+        "mean_gold_rank": 1.5833333333333333,
+        "mean_margin": 1.330561266524607,
+        "median_margin": 0.30484864115715027,
+        "mean_candidate_nll": 0.8922100083503475
+      },
+      "Repetition Count": {
+        "n": 24,
+        "accuracy": 0.375,
+        "correct": 9,
+        "mean_gold_rank": 2.25,
+        "mean_margin": -0.5001593908915917,
+        "median_margin": -0.9921546876430511,
+        "mean_candidate_nll": 1.5151947744620615
+      }
+    },
+    "kl": {
+      "Action Order": {
+        "n": 24,
+        "accuracy": 0.3333333333333333,
+        "correct": 8,
+        "mean_gold_rank": 2.4166666666666665,
+        "mean_margin": -1.216414558099738,
+        "median_margin": -1.250011831521988,
+        "mean_candidate_nll": 2.305099938677578
+      },
+      "Motion Recognition": {
+        "n": 24,
+        "accuracy": 0.625,
+        "correct": 15,
+        "mean_gold_rank": 1.5833333333333333,
+        "mean_margin": 0.0035168881516559245,
+        "median_margin": 0.4805106073617935,
+        "mean_candidate_nll": 1.7451381190543225
+      },
+      "Motion-related Objects": {
+        "n": 24,
+        "accuracy": 0.5416666666666666,
+        "correct": 13,
+        "mean_gold_rank": 1.625,
+        "mean_margin": 1.5045229021682947,
+        "median_margin": 0.3802439272403717,
+        "mean_candidate_nll": 0.9905588918856122
+      },
+      "Repetition Count": {
+        "n": 24,
+        "accuracy": 0.375,
+        "correct": 9,
+        "mean_gold_rank": 2.25,
+        "mean_margin": -0.7173714303256323,
+        "median_margin": -0.9530174136161804,
+        "mean_candidate_nll": 1.813531173654006
+      }
+    }
+  },
+  "paired": {
+    "ce_vs_equiv": {
+      "n": 96,
+      "b_only_correct": 2,
+      "a_only_correct": 0,
+      "both_correct": 44,
+      "both_wrong": 50,
+      "mean_delta_correct": 0.020833333333333332,
+      "mean_delta_margin": 0.015056134999194152,
+      "mean_delta_candidate_nll": -0.09657990964535614,
+      "mean_delta_gold_rank": -0.020833333333333332
+    },
+    "ce_vs_relation": {
+      "n": 96,
+      "b_only_correct": 4,
+      "a_only_correct": 2,
+      "both_correct": 42,
+      "both_wrong": 48,
+      "mean_delta_correct": 0.020833333333333332,
+      "mean_delta_margin": 0.05406948840497231,
+      "mean_delta_candidate_nll": -0.01645350594568167,
+      "mean_delta_gold_rank": 0.041666666666666664
+    },
+    "ce_vs_dynamics": {
+      "n": 96,
+      "b_only_correct": 1,
+      "a_only_correct": 0,
+      "both_correct": 44,
+      "both_wrong": 51,
+      "mean_delta_correct": 0.010416666666666666,
+      "mean_delta_margin": -0.00611988118453155,
+      "mean_delta_candidate_nll": 0.004053469281077834,
+      "mean_delta_gold_rank": -0.010416666666666666
+    },
+    "ce_vs_type_cond": {
+      "n": 96,
+      "b_only_correct": 1,
+      "a_only_correct": 0,
+      "both_correct": 44,
+      "both_wrong": 51,
+      "mean_delta_correct": 0.010416666666666666,
+      "mean_delta_margin": 0.011102829648393708,
+      "mean_delta_candidate_nll": -0.11350013014588307,
+      "mean_delta_gold_rank": 0.0
+    },
+    "ce_vs_kl": {
+      "n": 96,
+      "b_only_correct": 2,
+      "a_only_correct": 1,
+      "both_correct": 43,
+      "both_wrong": 50,
+      "mean_delta_correct": 0.010416666666666666,
+      "mean_delta_margin": -0.09671528604970565,
+      "mean_delta_candidate_nll": 0.08720855830677393,
+      "mean_delta_gold_rank": 0.041666666666666664
+    }
+  }
+}

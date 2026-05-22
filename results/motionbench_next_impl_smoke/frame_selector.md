@@ -1,0 +1,52 @@
+# MotionBench Frame Selector Evaluation
+
+| selector | budget | question_type | wan motion coverage | external acc |
+|---|---:|---|---:|---:|
+| flow_motion | 4 | Action Order | 0.5386 |  |
+| flow_motion | 4 | Motion Recognition | 0.4820 |  |
+| flow_motion | 4 | Motion-related Objects | 0.4784 |  |
+| flow_motion | 4 | Repetition Count | 0.4864 |  |
+| flow_motion | 8 | Action Order | 0.7848 |  |
+| flow_motion | 8 | Motion Recognition | 0.7896 |  |
+| flow_motion | 8 | Motion-related Objects | 0.7975 |  |
+| flow_motion | 8 | Repetition Count | 0.8401 |  |
+| pixel_motion | 4 | Action Order | 0.5666 |  |
+| pixel_motion | 4 | Motion Recognition | 0.5397 |  |
+| pixel_motion | 4 | Motion-related Objects | 0.5014 |  |
+| pixel_motion | 4 | Repetition Count | 0.4686 |  |
+| pixel_motion | 8 | Action Order | 0.8378 |  |
+| pixel_motion | 8 | Motion Recognition | 0.8000 |  |
+| pixel_motion | 8 | Motion-related Objects | 0.8129 |  |
+| pixel_motion | 8 | Repetition Count | 0.8299 |  |
+| question_text | 4 | Action Order | 0.7352 |  |
+| question_text | 4 | Motion Recognition | 0.7463 |  |
+| question_text | 4 | Motion-related Objects | 0.7522 |  |
+| question_text | 4 | Repetition Count | 0.7572 |  |
+| question_text | 8 | Action Order | 1.0000 |  |
+| question_text | 8 | Motion Recognition | 1.0000 |  |
+| question_text | 8 | Motion-related Objects | 1.0000 |  |
+| question_text | 8 | Repetition Count | 1.0000 |  |
+| random | 4 | Action Order | 0.8337 |  |
+| random | 4 | Motion Recognition | 0.8104 |  |
+| random | 4 | Motion-related Objects | 0.7960 |  |
+| random | 4 | Repetition Count | 0.8256 |  |
+| random | 8 | Action Order | 1.0000 |  |
+| random | 8 | Motion Recognition | 1.0000 |  |
+| random | 8 | Motion-related Objects | 1.0000 |  |
+| random | 8 | Repetition Count | 1.0000 |  |
+| uniform | 4 | Action Order | 0.7644 |  |
+| uniform | 4 | Motion Recognition | 0.7589 |  |
+| uniform | 4 | Motion-related Objects | 0.7677 |  |
+| uniform | 4 | Repetition Count | 0.7690 |  |
+| uniform | 8 | Action Order | 1.0000 |  |
+| uniform | 8 | Motion Recognition | 1.0000 |  |
+| uniform | 8 | Motion-related Objects | 1.0000 |  |
+| uniform | 8 | Repetition Count | 1.0000 |  |
+| wan_saliency | 4 | Action Order | 0.7957 |  |
+| wan_saliency | 4 | Motion Recognition | 0.7977 |  |
+| wan_saliency | 4 | Motion-related Objects | 0.7953 |  |
+| wan_saliency | 4 | Repetition Count | 0.7978 |  |
+| wan_saliency | 8 | Action Order | 1.0000 |  |
+| wan_saliency | 8 | Motion Recognition | 1.0000 |  |
+| wan_saliency | 8 | Motion-related Objects | 1.0000 |  |
+| wan_saliency | 8 | Repetition Count | 1.0000 |  |

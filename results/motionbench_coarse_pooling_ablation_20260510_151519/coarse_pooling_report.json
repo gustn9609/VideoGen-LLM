@@ -1,0 +1,890 @@
+{
+  "summary": [
+    {
+      "mode": "none",
+      "pool": "1x1",
+      "random_same_dim": 0.40877192982456145,
+      "pca_same_dim": 0.40877192982456145,
+      "raw_ridge": 0.3259649122807018,
+      "text_only": 0.3468421052631579
+    },
+    {
+      "mode": "none",
+      "pool": "2x2",
+      "random_same_dim": 0.3645614035087718,
+      "pca_same_dim": 0.3582456140350877,
+      "raw_ridge": 0.33298245614035094,
+      "text_only": 0.3468421052631579
+    },
+    {
+      "mode": "none",
+      "pool": "4x4",
+      "random_same_dim": 0.318421052631579,
+      "pca_same_dim": 0.3433333333333334,
+      "raw_ridge": 0.32982456140350874,
+      "text_only": 0.3468421052631579
+    },
+    {
+      "mode": "none",
+      "pool": "8x8",
+      "random_same_dim": 0.3705263157894737,
+      "pca_same_dim": 0.34701754385964917,
+      "raw_ridge": 0.34631578947368424,
+      "text_only": 0.3468421052631579
+    },
+    {
+      "mode": "none",
+      "pool": "16x16",
+      "random_same_dim": 0.3403508771929824,
+      "pca_same_dim": 0.37157894736842095,
+      "raw_ridge": 0.35333333333333333,
+      "text_only": 0.3468421052631579
+    },
+    {
+      "mode": "high_motion",
+      "pool": "1x1",
+      "random_same_dim": 0.39456140350877195,
+      "pca_same_dim": 0.39456140350877195,
+      "raw_ridge": 0.3226315789473685,
+      "text_only": 0.3468421052631579
+    },
+    {
+      "mode": "high_motion",
+      "pool": "2x2",
+      "random_same_dim": 0.3882456140350877,
+      "pca_same_dim": 0.3684210526315789,
+      "raw_ridge": 0.33298245614035094,
+      "text_only": 0.3468421052631579
+    },
+    {
+      "mode": "high_motion",
+      "pool": "4x4",
+      "random_same_dim": 0.3403508771929824,
+      "pca_same_dim": 0.3054385964912281,
+      "raw_ridge": 0.35052631578947374,
+      "text_only": 0.3468421052631579
+    },
+    {
+      "mode": "high_motion",
+      "pool": "8x8",
+      "random_same_dim": 0.3749122807017544,
+      "pca_same_dim": 0.3436842105263158,
+      "raw_ridge": 0.34280701754385967,
+      "text_only": 0.3468421052631579
+    },
+    {
+      "mode": "high_motion",
+      "pool": "16x16",
+      "random_same_dim": 0.35719298245614034,
+      "pca_same_dim": 0.406140350877193,
+      "raw_ridge": 0.34982456140350876,
+      "text_only": 0.3468421052631579
+    }
+  ],
+  "ridge": [
+    {
+      "alpha": "0p01",
+      "mode": "none",
+      "pool": "1x1",
+      "acc": 0.37456140350877193
+    },
+    {
+      "alpha": "0p01",
+      "mode": "none",
+      "pool": "2x2",
+      "acc": 0.3228070175438596
+    },
+    {
+      "alpha": "0p01",
+      "mode": "none",
+      "pool": "4x4",
+      "acc": 0.3647368421052632
+    },
+    {
+      "alpha": "0p01",
+      "mode": "none",
+      "pool": "8x8",
+      "acc": 0.3329824561403508
+    },
+    {
+      "alpha": "0p01",
+      "mode": "none",
+      "pool": "16x16",
+      "acc": 0.3433333333333334
+    },
+    {
+      "alpha": "0p01",
+      "mode": "high_motion",
+      "pool": "1x1",
+      "acc": 0.35403508771929826
+    },
+    {
+      "alpha": "0p01",
+      "mode": "high_motion",
+      "pool": "2x2",
+      "acc": 0.30947368421052623
+    },
+    {
+      "alpha": "0p01",
+      "mode": "high_motion",
+      "pool": "4x4",
+      "acc": 0.28754385964912277
+    },
+    {
+      "alpha": "0p01",
+      "mode": "high_motion",
+      "pool": "8x8",
+      "acc": 0.32666666666666677
+    },
+    {
+      "alpha": "0p01",
+      "mode": "high_motion",
+      "pool": "16x16",
+      "acc": 0.4103508771929825
+    },
+    {
+      "alpha": "0p1",
+      "mode": "none",
+      "pool": "1x1",
+      "acc": 0.44035087719298255
+    },
+    {
+      "alpha": "0p1",
+      "mode": "none",
+      "pool": "2x2",
+      "acc": 0.34035087719298246
+    },
+    {
+      "alpha": "0p1",
+      "mode": "none",
+      "pool": "4x4",
+      "acc": 0.3398245614035088
+    },
+    {
+      "alpha": "0p1",
+      "mode": "none",
+      "pool": "8x8",
+      "acc": 0.33649122807017545
+    },
+    {
+      "alpha": "0p1",
+      "mode": "none",
+      "pool": "16x16",
+      "acc": 0.3398245614035088
+    },
+    {
+      "alpha": "0p1",
+      "mode": "high_motion",
+      "pool": "1x1",
+      "acc": 0.4052631578947369
+    },
+    {
+      "alpha": "0p1",
+      "mode": "high_motion",
+      "pool": "2x2",
+      "acc": 0.33052631578947367
+    },
+    {
+      "alpha": "0p1",
+      "mode": "high_motion",
+      "pool": "4x4",
+      "acc": 0.31614035087719294
+    },
+    {
+      "alpha": "0p1",
+      "mode": "high_motion",
+      "pool": "8x8",
+      "acc": 0.34385964912280703
+    },
+    {
+      "alpha": "0p1",
+      "mode": "high_motion",
+      "pool": "16x16",
+      "acc": 0.40982456140350876
+    },
+    {
+      "alpha": "1",
+      "mode": "none",
+      "pool": "1x1",
+      "acc": 0.40877192982456145
+    },
+    {
+      "alpha": "1",
+      "mode": "none",
+      "pool": "2x2",
+      "acc": 0.3582456140350877
+    },
+    {
+      "alpha": "1",
+      "mode": "none",
+      "pool": "4x4",
+      "acc": 0.3433333333333334
+    },
+    {
+      "alpha": "1",
+      "mode": "none",
+      "pool": "8x8",
+      "acc": 0.34701754385964917
+    },
+    {
+      "alpha": "1",
+      "mode": "none",
+      "pool": "16x16",
+      "acc": 0.37157894736842095
+    },
+    {
+      "alpha": "1",
+      "mode": "high_motion",
+      "pool": "1x1",
+      "acc": 0.39456140350877195
+    },
+    {
+      "alpha": "1",
+      "mode": "high_motion",
+      "pool": "2x2",
+      "acc": 0.3684210526315789
+    },
+    {
+      "alpha": "1",
+      "mode": "high_motion",
+      "pool": "4x4",
+      "acc": 0.3054385964912281
+    },
+    {
+      "alpha": "1",
+      "mode": "high_motion",
+      "pool": "8x8",
+      "acc": 0.3436842105263158
+    },
+    {
+      "alpha": "1",
+      "mode": "high_motion",
+      "pool": "16x16",
+      "acc": 0.406140350877193
+    },
+    {
+      "alpha": "10",
+      "mode": "none",
+      "pool": "1x1",
+      "acc": 0.3812280701754386
+    },
+    {
+      "alpha": "10",
+      "mode": "none",
+      "pool": "2x2",
+      "acc": 0.3957894736842105
+    },
+    {
+      "alpha": "10",
+      "mode": "none",
+      "pool": "4x4",
+      "acc": 0.36403508771929827
+    },
+    {
+      "alpha": "10",
+      "mode": "none",
+      "pool": "8x8",
+      "acc": 0.35368421052631577
+    },
+    {
+      "alpha": "10",
+      "mode": "none",
+      "pool": "16x16",
+      "acc": 0.35666666666666663
+    },
+    {
+      "alpha": "10",
+      "mode": "high_motion",
+      "pool": "1x1",
+      "acc": 0.3985964912280702
+    },
+    {
+      "alpha": "10",
+      "mode": "high_motion",
+      "pool": "2x2",
+      "acc": 0.35789473684210527
+    },
+    {
+      "alpha": "10",
+      "mode": "high_motion",
+      "pool": "4x4",
+      "acc": 0.3017543859649123
+    },
+    {
+      "alpha": "10",
+      "mode": "high_motion",
+      "pool": "8x8",
+      "acc": 0.3645614035087719
+    },
+    {
+      "alpha": "10",
+      "mode": "high_motion",
+      "pool": "16x16",
+      "acc": 0.3750877192982456
+    },
+    {
+      "alpha": "100",
+      "mode": "none",
+      "pool": "1x1",
+      "acc": 0.363859649122807
+    },
+    {
+      "alpha": "100",
+      "mode": "none",
+      "pool": "2x2",
+      "acc": 0.42000000000000004
+    },
+    {
+      "alpha": "100",
+      "mode": "none",
+      "pool": "4x4",
+      "acc": 0.3226315789473684
+    },
+    {
+      "alpha": "100",
+      "mode": "none",
+      "pool": "8x8",
+      "acc": 0.3357894736842105
+    },
+    {
+      "alpha": "100",
+      "mode": "none",
+      "pool": "16x16",
+      "acc": 0.3424561403508772
+    },
+    {
+      "alpha": "100",
+      "mode": "high_motion",
+      "pool": "1x1",
+      "acc": 0.3742105263157895
+    },
+    {
+      "alpha": "100",
+      "mode": "high_motion",
+      "pool": "2x2",
+      "acc": 0.34719298245614033
+    },
+    {
+      "alpha": "100",
+      "mode": "high_motion",
+      "pool": "4x4",
+      "acc": 0.3157894736842105
+    },
+    {
+      "alpha": "100",
+      "mode": "high_motion",
+      "pool": "8x8",
+      "acc": 0.35403508771929815
+    },
+    {
+      "alpha": "100",
+      "mode": "high_motion",
+      "pool": "16x16",
+      "acc": 0.33280701754385966
+    }
+  ],
+  "sample_size": [
+    {
+      "per_type": "8",
+      "mode": "none",
+      "pool": "1x1",
+      "acc": 0.34285714285714286
+    },
+    {
+      "per_type": "8",
+      "mode": "none",
+      "pool": "2x2",
+      "acc": 0.32857142857142857
+    },
+    {
+      "per_type": "8",
+      "mode": "none",
+      "pool": "4x4",
+      "acc": 0.2682539682539682
+    },
+    {
+      "per_type": "8",
+      "mode": "none",
+      "pool": "8x8",
+      "acc": 0.29047619047619044
+    },
+    {
+      "per_type": "8",
+      "mode": "none",
+      "pool": "16x16",
+      "acc": 0.31904761904761897
+    },
+    {
+      "per_type": "8",
+      "mode": "high_motion",
+      "pool": "1x1",
+      "acc": 0.20952380952380953
+    },
+    {
+      "per_type": "8",
+      "mode": "high_motion",
+      "pool": "2x2",
+      "acc": 0.2952380952380952
+    },
+    {
+      "per_type": "8",
+      "mode": "high_motion",
+      "pool": "4x4",
+      "acc": 0.2507936507936508
+    },
+    {
+      "per_type": "8",
+      "mode": "high_motion",
+      "pool": "8x8",
+      "acc": 0.2587301587301587
+    },
+    {
+      "per_type": "8",
+      "mode": "high_motion",
+      "pool": "16x16",
+      "acc": 0.26031746031746034
+    },
+    {
+      "per_type": "16",
+      "mode": "none",
+      "pool": "1x1",
+      "acc": 0.3491452991452993
+    },
+    {
+      "per_type": "16",
+      "mode": "none",
+      "pool": "2x2",
+      "acc": 0.27008547008547007
+    },
+    {
+      "per_type": "16",
+      "mode": "none",
+      "pool": "4x4",
+      "acc": 0.28119658119658125
+    },
+    {
+      "per_type": "16",
+      "mode": "none",
+      "pool": "8x8",
+      "acc": 0.3405982905982906
+    },
+    {
+      "per_type": "16",
+      "mode": "none",
+      "pool": "16x16",
+      "acc": 0.2662393162393163
+    },
+    {
+      "per_type": "16",
+      "mode": "high_motion",
+      "pool": "1x1",
+      "acc": 0.4158119658119659
+    },
+    {
+      "per_type": "16",
+      "mode": "high_motion",
+      "pool": "2x2",
+      "acc": 0.3807692307692308
+    },
+    {
+      "per_type": "16",
+      "mode": "high_motion",
+      "pool": "4x4",
+      "acc": 0.40726495726495726
+    },
+    {
+      "per_type": "16",
+      "mode": "high_motion",
+      "pool": "8x8",
+      "acc": 0.46880341880341875
+    },
+    {
+      "per_type": "16",
+      "mode": "high_motion",
+      "pool": "16x16",
+      "acc": 0.44316239316239314
+    },
+    {
+      "per_type": "24",
+      "mode": "none",
+      "pool": "1x1",
+      "acc": 0.40877192982456145
+    },
+    {
+      "per_type": "24",
+      "mode": "none",
+      "pool": "2x2",
+      "acc": 0.3582456140350877
+    },
+    {
+      "per_type": "24",
+      "mode": "none",
+      "pool": "4x4",
+      "acc": 0.3433333333333334
+    },
+    {
+      "per_type": "24",
+      "mode": "none",
+      "pool": "8x8",
+      "acc": 0.34701754385964917
+    },
+    {
+      "per_type": "24",
+      "mode": "none",
+      "pool": "16x16",
+      "acc": 0.37157894736842095
+    },
+    {
+      "per_type": "24",
+      "mode": "high_motion",
+      "pool": "1x1",
+      "acc": 0.39456140350877195
+    },
+    {
+      "per_type": "24",
+      "mode": "high_motion",
+      "pool": "2x2",
+      "acc": 0.3684210526315789
+    },
+    {
+      "per_type": "24",
+      "mode": "high_motion",
+      "pool": "4x4",
+      "acc": 0.3054385964912281
+    },
+    {
+      "per_type": "24",
+      "mode": "high_motion",
+      "pool": "8x8",
+      "acc": 0.3436842105263158
+    },
+    {
+      "per_type": "24",
+      "mode": "high_motion",
+      "pool": "16x16",
+      "acc": 0.406140350877193
+    }
+  ],
+  "per_type": [
+    {
+      "mode": "none",
+      "pool": "1x1",
+      "question_type": "Action Order",
+      "acc": 0.375,
+      "correct": 27,
+      "total": 72
+    },
+    {
+      "mode": "none",
+      "pool": "1x1",
+      "question_type": "Motion Recognition",
+      "acc": 0.4305555555555556,
+      "correct": 31,
+      "total": 72
+    },
+    {
+      "mode": "none",
+      "pool": "1x1",
+      "question_type": "Motion-related Objects",
+      "acc": 0.375,
+      "correct": 27,
+      "total": 72
+    },
+    {
+      "mode": "none",
+      "pool": "1x1",
+      "question_type": "Repetition Count",
+      "acc": 0.4583333333333333,
+      "correct": 33,
+      "total": 72
+    },
+    {
+      "mode": "none",
+      "pool": "2x2",
+      "question_type": "Action Order",
+      "acc": 0.3611111111111111,
+      "correct": 26,
+      "total": 72
+    },
+    {
+      "mode": "none",
+      "pool": "2x2",
+      "question_type": "Motion Recognition",
+      "acc": 0.3194444444444444,
+      "correct": 23,
+      "total": 72
+    },
+    {
+      "mode": "none",
+      "pool": "2x2",
+      "question_type": "Motion-related Objects",
+      "acc": 0.2916666666666667,
+      "correct": 21,
+      "total": 72
+    },
+    {
+      "mode": "none",
+      "pool": "2x2",
+      "question_type": "Repetition Count",
+      "acc": 0.4583333333333333,
+      "correct": 33,
+      "total": 72
+    },
+    {
+      "mode": "none",
+      "pool": "4x4",
+      "question_type": "Action Order",
+      "acc": 0.2916666666666667,
+      "correct": 21,
+      "total": 72
+    },
+    {
+      "mode": "none",
+      "pool": "4x4",
+      "question_type": "Motion Recognition",
+      "acc": 0.2777777777777778,
+      "correct": 20,
+      "total": 72
+    },
+    {
+      "mode": "none",
+      "pool": "4x4",
+      "question_type": "Motion-related Objects",
+      "acc": 0.375,
+      "correct": 27,
+      "total": 72
+    },
+    {
+      "mode": "none",
+      "pool": "4x4",
+      "question_type": "Repetition Count",
+      "acc": 0.4305555555555556,
+      "correct": 31,
+      "total": 72
+    },
+    {
+      "mode": "none",
+      "pool": "8x8",
+      "question_type": "Action Order",
+      "acc": 0.3611111111111111,
+      "correct": 26,
+      "total": 72
+    },
+    {
+      "mode": "none",
+      "pool": "8x8",
+      "question_type": "Motion Recognition",
+      "acc": 0.3194444444444444,
+      "correct": 23,
+      "total": 72
+    },
+    {
+      "mode": "none",
+      "pool": "8x8",
+      "question_type": "Motion-related Objects",
+      "acc": 0.2777777777777778,
+      "correct": 20,
+      "total": 72
+    },
+    {
+      "mode": "none",
+      "pool": "8x8",
+      "question_type": "Repetition Count",
+      "acc": 0.4305555555555556,
+      "correct": 31,
+      "total": 72
+    },
+    {
+      "mode": "none",
+      "pool": "16x16",
+      "question_type": "Action Order",
+      "acc": 0.4027777777777778,
+      "correct": 29,
+      "total": 72
+    },
+    {
+      "mode": "none",
+      "pool": "16x16",
+      "question_type": "Motion Recognition",
+      "acc": 0.2916666666666667,
+      "correct": 21,
+      "total": 72
+    },
+    {
+      "mode": "none",
+      "pool": "16x16",
+      "question_type": "Motion-related Objects",
+      "acc": 0.375,
+      "correct": 27,
+      "total": 72
+    },
+    {
+      "mode": "none",
+      "pool": "16x16",
+      "question_type": "Repetition Count",
+      "acc": 0.4166666666666667,
+      "correct": 30,
+      "total": 72
+    },
+    {
+      "mode": "high_motion",
+      "pool": "1x1",
+      "question_type": "Action Order",
+      "acc": 0.375,
+      "correct": 27,
+      "total": 72
+    },
+    {
+      "mode": "high_motion",
+      "pool": "1x1",
+      "question_type": "Motion Recognition",
+      "acc": 0.4166666666666667,
+      "correct": 30,
+      "total": 72
+    },
+    {
+      "mode": "high_motion",
+      "pool": "1x1",
+      "question_type": "Motion-related Objects",
+      "acc": 0.375,
+      "correct": 27,
+      "total": 72
+    },
+    {
+      "mode": "high_motion",
+      "pool": "1x1",
+      "question_type": "Repetition Count",
+      "acc": 0.4166666666666667,
+      "correct": 30,
+      "total": 72
+    },
+    {
+      "mode": "high_motion",
+      "pool": "2x2",
+      "question_type": "Action Order",
+      "acc": 0.3611111111111111,
+      "correct": 26,
+      "total": 72
+    },
+    {
+      "mode": "high_motion",
+      "pool": "2x2",
+      "question_type": "Motion Recognition",
+      "acc": 0.4166666666666667,
+      "correct": 30,
+      "total": 72
+    },
+    {
+      "mode": "high_motion",
+      "pool": "2x2",
+      "question_type": "Motion-related Objects",
+      "acc": 0.25,
+      "correct": 18,
+      "total": 72
+    },
+    {
+      "mode": "high_motion",
+      "pool": "2x2",
+      "question_type": "Repetition Count",
+      "acc": 0.4444444444444444,
+      "correct": 32,
+      "total": 72
+    },
+    {
+      "mode": "high_motion",
+      "pool": "4x4",
+      "question_type": "Action Order",
+      "acc": 0.2916666666666667,
+      "correct": 21,
+      "total": 72
+    },
+    {
+      "mode": "high_motion",
+      "pool": "4x4",
+      "question_type": "Motion Recognition",
+      "acc": 0.2222222222222222,
+      "correct": 16,
+      "total": 72
+    },
+    {
+      "mode": "high_motion",
+      "pool": "4x4",
+      "question_type": "Motion-related Objects",
+      "acc": 0.2777777777777778,
+      "correct": 20,
+      "total": 72
+    },
+    {
+      "mode": "high_motion",
+      "pool": "4x4",
+      "question_type": "Repetition Count",
+      "acc": 0.4305555555555556,
+      "correct": 31,
+      "total": 72
+    },
+    {
+      "mode": "high_motion",
+      "pool": "8x8",
+      "question_type": "Action Order",
+      "acc": 0.2638888888888889,
+      "correct": 19,
+      "total": 72
+    },
+    {
+      "mode": "high_motion",
+      "pool": "8x8",
+      "question_type": "Motion Recognition",
+      "acc": 0.3611111111111111,
+      "correct": 26,
+      "total": 72
+    },
+    {
+      "mode": "high_motion",
+      "pool": "8x8",
+      "question_type": "Motion-related Objects",
+      "acc": 0.3472222222222222,
+      "correct": 25,
+      "total": 72
+    },
+    {
+      "mode": "high_motion",
+      "pool": "8x8",
+      "question_type": "Repetition Count",
+      "acc": 0.4027777777777778,
+      "correct": 29,
+      "total": 72
+    },
+    {
+      "mode": "high_motion",
+      "pool": "16x16",
+      "question_type": "Action Order",
+      "acc": 0.3888888888888889,
+      "correct": 28,
+      "total": 72
+    },
+    {
+      "mode": "high_motion",
+      "pool": "16x16",
+      "question_type": "Motion Recognition",
+      "acc": 0.4444444444444444,
+      "correct": 32,
+      "total": 72
+    },
+    {
+      "mode": "high_motion",
+      "pool": "16x16",
+      "question_type": "Motion-related Objects",
+      "acc": 0.3472222222222222,
+      "correct": 25,
+      "total": 72
+    },
+    {
+      "mode": "high_motion",
+      "pool": "16x16",
+      "question_type": "Repetition Count",
+      "acc": 0.4444444444444444,
+      "correct": 32,
+      "total": 72
+    }
+  ]
+}

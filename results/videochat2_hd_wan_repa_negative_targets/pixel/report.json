@@ -1,0 +1,22 @@
+{
+  "config": {
+    "control": "pixel",
+    "source_features_h5": "results/videochat2_hd_hidden_motionbench_f8_hmcc/combined_features.h5",
+    "metadata_jsonl": "results/videochat2_hd_hidden_motionbench_f8_hmcc/hidden_tokens_metadata.jsonl",
+    "output_h5": "results/videochat2_hd_wan_repa_negative_targets/pixel/targets.h5",
+    "output_metadata_jsonl": "results/videochat2_hd_wan_repa_negative_targets/pixel/targets_metadata.jsonl",
+    "report_json": "results/videochat2_hd_wan_repa_negative_targets/pixel/report.json",
+    "mode": "high_motion+camera_comp",
+    "source_feature": "",
+    "output_prefix": "wmrepa",
+    "output_feature_base": "wan_vae_grid_1x1",
+    "target": "equivariance",
+    "reference_target_h5": "results/motionbench_wan_motion_repa_20260511_pool1f8/wmrepa_targets.h5",
+    "reference_target_feature": "wmrepa_equivariance_wan_vae_grid_1x1",
+    "seed": 123
+  },
+  "output_feature": "wmrepa_equivariance_wan_vae_grid_1x1",
+  "rows": 96,
+  "dim": 448,
+  "source_feature": "pixel_grid_sequence"
+}

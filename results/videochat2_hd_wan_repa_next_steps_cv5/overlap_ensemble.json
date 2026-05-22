@@ -1,0 +1,402 @@
+{
+  "names": [
+    "ce",
+    "eq",
+    "rel"
+  ],
+  "single_run_summary": {
+    "ce": {
+      "accuracy": 0.4583333333333333,
+      "correct": 44,
+      "total": 96,
+      "mean_rank": 1.9270833333333333,
+      "mean_margin": -0.009721263476649256,
+      "mean_nll": 1.6263734725111056
+    },
+    "eq": {
+      "accuracy": 0.4791666666666667,
+      "correct": 46,
+      "total": 96,
+      "mean_rank": 1.90625,
+      "mean_margin": 0.005334871522544897,
+      "mean_nll": 1.52979356286575
+    },
+    "rel": {
+      "accuracy": 0.4791666666666667,
+      "correct": 46,
+      "total": 96,
+      "mean_rank": 1.96875,
+      "mean_margin": 0.044348224928323056,
+      "mean_nll": 1.609919966565424
+    }
+  },
+  "overlap_counts": [
+    {
+      "ce": 0,
+      "eq": 0,
+      "rel": 0,
+      "n": 48
+    },
+    {
+      "ce": 0,
+      "eq": 0,
+      "rel": 1,
+      "n": 2
+    },
+    {
+      "ce": 0,
+      "eq": 1,
+      "rel": 1,
+      "n": 2
+    },
+    {
+      "ce": 1,
+      "eq": 1,
+      "rel": 0,
+      "n": 2
+    },
+    {
+      "ce": 1,
+      "eq": 1,
+      "rel": 1,
+      "n": 42
+    }
+  ],
+  "per_type_overlap": {
+    "Action Order": [
+      {
+        "ce": 0,
+        "eq": 0,
+        "rel": 0,
+        "n": 16
+      },
+      {
+        "ce": 0,
+        "eq": 1,
+        "rel": 1,
+        "n": 1
+      },
+      {
+        "ce": 1,
+        "eq": 1,
+        "rel": 1,
+        "n": 7
+      }
+    ],
+    "Motion Recognition": [
+      {
+        "ce": 0,
+        "eq": 0,
+        "rel": 0,
+        "n": 9
+      },
+      {
+        "ce": 0,
+        "eq": 1,
+        "rel": 1,
+        "n": 1
+      },
+      {
+        "ce": 1,
+        "eq": 1,
+        "rel": 0,
+        "n": 1
+      },
+      {
+        "ce": 1,
+        "eq": 1,
+        "rel": 1,
+        "n": 13
+      }
+    ],
+    "Motion-related Objects": [
+      {
+        "ce": 0,
+        "eq": 0,
+        "rel": 0,
+        "n": 8
+      },
+      {
+        "ce": 0,
+        "eq": 0,
+        "rel": 1,
+        "n": 2
+      },
+      {
+        "ce": 1,
+        "eq": 1,
+        "rel": 0,
+        "n": 1
+      },
+      {
+        "ce": 1,
+        "eq": 1,
+        "rel": 1,
+        "n": 13
+      }
+    ],
+    "Repetition Count": [
+      {
+        "ce": 0,
+        "eq": 0,
+        "rel": 0,
+        "n": 15
+      },
+      {
+        "ce": 1,
+        "eq": 1,
+        "rel": 1,
+        "n": 9
+      }
+    ]
+  },
+  "oracle": {
+    "correct": 48,
+    "total": 96,
+    "accuracy": 0.5
+  },
+  "group_metric_summary": {
+    "all_correct": {
+      "n": 42,
+      "ce": {
+        "accuracy": 1.0,
+        "mean_rank": 1.0,
+        "mean_margin": 2.590576104795868,
+        "mean_nll": 0.361891296935966
+      },
+      "eq": {
+        "accuracy": 1.0,
+        "mean_rank": 1.0,
+        "mean_margin": 2.385441774776934,
+        "mean_nll": 0.370661384304313
+      },
+      "rel": {
+        "accuracy": 1.0,
+        "mean_rank": 1.0,
+        "mean_margin": 2.643208336593532,
+        "mean_nll": 0.36927106965067125
+      }
+    },
+    "all_wrong": {
+      "n": 48,
+      "ce": {
+        "accuracy": 0.0,
+        "mean_rank": 2.7708333333333335,
+        "mean_margin": -2.281254323197724,
+        "mean_nll": 2.8040413823106216
+      },
+      "eq": {
+        "accuracy": 0.0,
+        "mean_rank": 2.7708333333333335,
+        "mean_margin": -2.057517749241015,
+        "mean_nll": 2.6011493227769207
+      },
+      "rel": {
+        "accuracy": 0.0,
+        "mean_rank": 2.875,
+        "mean_margin": -2.231841241748043,
+        "mean_nll": 2.778748592859991
+      }
+    },
+    "ce_eq_not_rel": {
+      "n": 2,
+      "ce": {
+        "accuracy": 1.0,
+        "mean_rank": 1.0,
+        "mean_margin": 0.640798956155777,
+        "mean_nll": 0.6851550318127377
+      },
+      "eq": {
+        "accuracy": 1.0,
+        "mean_rank": 1.0,
+        "mean_margin": 0.1332780122756958,
+        "mean_nll": 0.8602463394279444
+      },
+      "rel": {
+        "accuracy": 0.0,
+        "mean_rank": 2.5,
+        "mean_margin": -0.28190380334854126,
+        "mean_nll": 1.0606054929040432
+      }
+    },
+    "eq_rel_not_ce": {
+      "n": 2,
+      "ce": {
+        "accuracy": 0.0,
+        "mean_rank": 2.0,
+        "mean_margin": -0.056825220584869385,
+        "mean_nll": 1.1316646878469014
+      },
+      "eq": {
+        "accuracy": 1.0,
+        "mean_rank": 1.0,
+        "mean_margin": 0.048686087131500244,
+        "mean_nll": 1.06473738046839
+      },
+      "rel": {
+        "accuracy": 1.0,
+        "mean_rank": 1.0,
+        "mean_margin": 0.09932571649551392,
+        "mean_nll": 1.0649453883394218
+      }
+    },
+    "rel_only": {
+      "n": 2,
+      "ce": {
+        "accuracy": 0.0,
+        "mean_rank": 2.0,
+        "mean_margin": -0.702588826417923,
+        "mean_nll": 1.3523965497632333
+      },
+      "eq": {
+        "accuracy": 0.0,
+        "mean_rank": 2.0,
+        "mean_margin": -0.6397415548563004,
+        "mean_nll": 1.2936344806229851
+      },
+      "rel": {
+        "accuracy": 1.0,
+        "mean_rank": 1.0,
+        "mean_margin": 0.3681076169013977,
+        "mean_nll": 0.705948822593008
+      }
+    }
+  },
+  "nested_ensemble": {
+    "accuracy": 0.46875,
+    "correct": 45,
+    "total": 96,
+    "mean_nll": 1.6602536280829907,
+    "mean_margin": -0.2883211574054396,
+    "mean_rank": 1.9583333333333333,
+    "per_question_type": {
+      "Action Order": {
+        "correct": 8,
+        "total": 24,
+        "accuracy": 0.3333333333333333
+      },
+      "Motion Recognition": {
+        "correct": 14,
+        "total": 24,
+        "accuracy": 0.5833333333333334
+      },
+      "Motion-related Objects": {
+        "correct": 14,
+        "total": 24,
+        "accuracy": 0.5833333333333334
+      },
+      "Repetition Count": {
+        "correct": 9,
+        "total": 24,
+        "accuracy": 0.375
+      }
+    },
+    "folds": [
+      {
+        "fold": 0,
+        "norm": "raw",
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "validation_accuracy": 0.4868421052631579,
+        "validation_nll": 1.240557306932215,
+        "test_accuracy": 0.45,
+        "test_correct": 9,
+        "test_total": 20,
+        "test_nll": 3.0134980731716188
+      },
+      {
+        "fold": 1,
+        "norm": "zscore",
+        "weights": [
+          0.05,
+          0.55,
+          0.4
+        ],
+        "validation_accuracy": 0.4935064935064935,
+        "validation_nll": 1.3283904750814617,
+        "test_accuracy": 0.47368421052631576,
+        "test_correct": 9,
+        "test_total": 19,
+        "test_nll": 1.3333969886769212
+      },
+      {
+        "fold": 2,
+        "norm": "zscore",
+        "weights": [
+          0.05,
+          0.55,
+          0.4
+        ],
+        "validation_accuracy": 0.5194805194805194,
+        "validation_nll": 1.2932822529517816,
+        "test_accuracy": 0.3684210526315789,
+        "test_correct": 7,
+        "test_total": 19,
+        "test_nll": 1.475677678360363
+      },
+      {
+        "fold": 3,
+        "norm": "zscore",
+        "weights": [
+          0.0,
+          0.65,
+          0.35
+        ],
+        "validation_accuracy": 0.4675324675324675,
+        "validation_nll": 1.406573999580817,
+        "test_accuracy": 0.5789473684210527,
+        "test_correct": 11,
+        "test_total": 19,
+        "test_nll": 1.0199289601235653
+      },
+      {
+        "fold": 4,
+        "norm": "zscore",
+        "weights": [
+          0.15,
+          0.3,
+          0.55
+        ],
+        "validation_accuracy": 0.4805194805194805,
+        "validation_nll": 1.313845565079006,
+        "test_accuracy": 0.47368421052631576,
+        "test_correct": 9,
+        "test_total": 19,
+        "test_nll": 1.387543048235715
+      }
+    ]
+  },
+  "reference_ensembles": {
+    "equal_logprob": {
+      "norm": "logprob",
+      "weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "accuracy": 0.4895833333333333,
+      "correct": 47,
+      "total": 96,
+      "mean_nll": 1.577775001560628,
+      "mean_margin": 0.019556830770063167,
+      "mean_rank": 1.9270833333333333
+    },
+    "full_oof_tuned": {
+      "norm": "zscore",
+      "weights": [
+        0.05,
+        0.55,
+        0.4
+      ],
+      "accuracy": 0.4895833333333333,
+      "correct": 47,
+      "total": 96,
+      "mean_nll": 1.3293813475638967,
+      "mean_margin": -0.26789777250461694,
+      "mean_rank": 1.9375
+    }
+  }
+}

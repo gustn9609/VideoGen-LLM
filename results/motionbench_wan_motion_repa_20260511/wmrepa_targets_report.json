@@ -1,0 +1,64 @@
+{
+  "config": {
+    "features_h5": "results/motionbench_factorial_minisweep_20260510_151512/pool_2_frames_16/features.h5",
+    "metadata_jsonl": "results/motionbench_factorial_minisweep_20260510_151512/pool_2_frames_16/metadata.jsonl",
+    "output_h5": "results/motionbench_wan_motion_repa_20260511/wmrepa_targets.h5",
+    "output_metadata_jsonl": "results/motionbench_wan_motion_repa_20260511/wmrepa_targets_metadata.jsonl",
+    "report_json": "results/motionbench_wan_motion_repa_20260511/wmrepa_targets_report.json",
+    "report_md": "results/motionbench_wan_motion_repa_20260511/wmrepa_targets_report.md",
+    "feature_names": "wan_vae_grid_2x2",
+    "modes": "high_motion+camera_comp",
+    "output_prefix": "wmrepa",
+    "seed": 123
+  },
+  "features": [
+    {
+      "mode": "high_motion+camera_comp",
+      "source_feature": "wan_vae_grid_2x2",
+      "output_feature": "wmrepa_raw_pooled_wan_vae_grid_2x2",
+      "target": "raw_pooled",
+      "rows": 96,
+      "dim": 224
+    },
+    {
+      "mode": "high_motion+camera_comp",
+      "source_feature": "wan_vae_grid_2x2",
+      "output_feature": "wmrepa_structured_compact_wan_vae_grid_2x2",
+      "target": "structured_compact",
+      "rows": 96,
+      "dim": 236
+    },
+    {
+      "mode": "high_motion+camera_comp",
+      "source_feature": "wan_vae_grid_2x2",
+      "output_feature": "wmrepa_dynamics_relation_wan_vae_grid_2x2",
+      "target": "dynamics_relation",
+      "rows": 96,
+      "dim": 702
+    },
+    {
+      "mode": "high_motion+camera_comp",
+      "source_feature": "wan_vae_grid_2x2",
+      "output_feature": "wmrepa_relation_only_wan_vae_grid_2x2",
+      "target": "relation_only",
+      "rows": 96,
+      "dim": 20
+    },
+    {
+      "mode": "high_motion+camera_comp",
+      "source_feature": "wan_vae_grid_2x2",
+      "output_feature": "wmrepa_equivariance_wan_vae_grid_2x2",
+      "target": "equivariance",
+      "rows": 96,
+      "dim": 2760
+    },
+    {
+      "mode": "high_motion+camera_comp",
+      "source_feature": "wan_vae_grid_2x2",
+      "output_feature": "wmrepa_multi_target_wan_vae_grid_2x2",
+      "target": "multi_target",
+      "rows": 96,
+      "dim": 3706
+    }
+  ]
+}
